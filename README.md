@@ -1,4 +1,4 @@
-# MCMP
+# AnomalyPlus
 
 Welcome to Anomaly+
 
