@@ -1,5 +1,3 @@
-# ideas
+- Gameplay
 
-#Gameplay
-
-#UI
+- UI
