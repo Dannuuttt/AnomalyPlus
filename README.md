@@ -1,18 +1,19 @@
-# Anomaly+
+Anomaly+
 
-- Welcome to Anomaly+
+    Welcome to Anomaly+
 
-- This is a Modpack for Original S.T.A.L.K.E.R Anomaly which aims to rebalance, change and create new gameplay features, with complete graphical overhaul, tons of new mutants, anomalies and changed storylines.
+    This is a Modpack for Original S.T.A.L.K.E.R Anomaly which aims to rebalance, change and create new gameplay features, with complete graphical overhaul, tons of new mutants, anomalies and a rework for storylines.
 
-# Contributions
+Contributions
 
-- Pull requests can be made under the dev branch.
+    Pull requests can be made under the dev branch.
 
-# Discord
+Discord
 
-- For tutorials and help feel free to join our discord:
+    For tutorials and help feel free to join our discord: https://discord.gg/dr3gytzMSX
 
-# Credits
+Credits
+
 S.T.A.L.K.E.R Anomaly+ is a fan-created modification for S.T.A.L.K.E.R. games, developed and wholly owned by GSC Game World. S.T.A.L.K.E.R. Anomaly+ is not an official product of GSC Game World and is a derivative work based on their S.T.A.L.K.E.R. games.
 
 You can support GSC by buying the original games here:
