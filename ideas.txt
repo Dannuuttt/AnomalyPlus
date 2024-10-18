@@ -1,3 +1,9 @@
 - Gameplay
 
+* Add new guns
+
 - UI
+
+* Create a completely new health UI in the bottom left
+
+* Create a new inventory UI
