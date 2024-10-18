@@ -1,14 +1,8 @@
-[ Weapon Stats ]
-
 Accuracy
 Handling
 Damage
 Fire Rate
 Mag.size
-
-
-
-[ Category 1 : Pistols ] 
  
 1. Walther P99 [ 9x19 ] ( 9x19 Suppressor ) 
 Normal : 53% / 85% / 30.dmg / 260 RPM / 16 { wpn_walther }
