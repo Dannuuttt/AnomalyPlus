@@ -1,1 +1,40 @@
+[ Medicine Information ]
+
+
+1. First-aid kit { medkit }
+60% hp restore / slight thirstiness increment  
+34 sec duration / +3% health restoration / -20 mSv/sec
+
+2. Army medkit { medkit_army }
+100% hp restore / slight thirstiness increment
+34 sec duration / +5% health restiration / 400 ug of adren / 750 ml/min bleeding control
+
+3. Scientific medkit { medkit_scientific }
+100% hp restore / slight thirstiness increment
+34 sec duration / +5% health restiratiob / -60 mSv/sec / 750 ml/min bleeding control / +99% Rad Res / +10% Psy Res
+
+4. Bandaje { bandaje }
+10 sec duration / -29 kcal eq. / +1500 ml/min bleeding control
+
+5. Tourniquet { jgut } 
+5 sec duration / -94 kcal eq. / +5251 ml/min bleeding control
+
+6.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
