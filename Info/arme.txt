@@ -1,218 +1,148 @@
-A) Arme
+[ Weapon Stats ]
 
-_________________________________
+Accuracy
+Handling
+Damage
+Fire Rate
+Mag.size
 
-1) Cutite: (Adauga Statistici)
 
-AK-47 bayonet
-- Hunting knife
-- M9 bayonet
-- NR-40 Finka combat knife
-- Spetsnaz switchblade
 
-__________________________________
+[ Category 1 : Pistols ]
 
-1.1) Topoare: (Adauga Statistici)
-- Axe
-- Fire Axe
-- Hunting Axe
+1. Walther P99 [ 9x19 ] ( 9x19 Suppressor )
+Normal : 53% / 85% / 30.dmg / 260 RPM / 16
+Custom : 56% / 85% / 30.dmg / 285 RPM / 16
 
-___________________________________
+2. USP Match [ 9x19 ] ( GemTech Suppressor )
+Normal : 73% / 84% / 36.dmg / 260 RPM / 15
+Custom : 75% / 84% / 31.dmg / 280 RPM / 15
 
-2) Pistoale (Adauga Statistici)
-- Beretta 92F (regular/alternate/camouflage/modern) [9x19mm Parabellum] 15rd magazine
-- Colt M1911 (regular/alternate/camouflage/custom/modern/new) [.45 ACP (11.43x23mm)] 7rd magazine
-- Colt M1911 {Duty faction version} [.45 ACP (11.43x23mm)] 7rd magazine
-- Colt M1911 {Mercenary faction version} [.45 ACP (11.43x23mm)] 7rd magazine
-- Colt Kimber Desert Warrior [.45 ACP (11.43x23mm)] 7rd magazine
-- Cz 52 [7.62x25mm Tokarev] 8rd magazine
-- Cz 75 [9x19mm Parabellum] 15rd magazine
-- Desert Eagle (regular/custom/modern) [.357 Magnum (9x33mmR)] 9rd magazine
-- Desert Eagle w/. red dot sight {Nimble's Unique version} [.357 Magnum (9x33mmR)] 9rd magazine
-- FN Five-seveN [5.7x28mm FN] 20rd magazine
-- FNP45 (regular/custom) [.45 ACP (11.43x23mm)] 15rd magazine
-- FNX45 w/. silencer and holographic sight (regular/alternate/custom) [.45 ACP (11.43x23mm)] 15rd magazine
-- Fort 12 (regular) [9x18mm Makarov] 12rd magazine
-- Fort 12 {Snag's Unique item} [9x18mm Makarov] 12rd magazine
-- Glock 19 Compact (regular/custom/modern) [9x19mm Parabellum] 15rd magazine.
-- GSh-18 (regular/custom) [9x19mm Parabellum] 18rd magazine
-- Browning Hi-Power (regular/alternate) [9x19mm Parabellum] 13rd magazine
-- MP-412 REX ("Revolver for EXport") [.357 Magnum (9x33mmR)] 6rd cylinder.
-- MP-443 «Grach» ("Raven") [9x19mm Parabellum] 18rd magazine
-- PB-1 Silenced Pistol (regular/custom) [9x18mm Makarov] 8rd magazine.
-- PM (regular/custom/engraved) [9x18mm Makarov] 8rd magazine.
-- PMM [9x18mm Makarov] 12rd magazine
-- SIG P220 (regular/custom) [9x19mm Parabellum] 7rd magazine
-- Tokarev TT-33 (regular/modern) [7.62x25mm Tokarev] 8rd magazine
-- USP [.45 ACP (11.43x23mm)] 12rd magazine
-- USP Match [.45 ACP (11.43x23mm)] 12rd magazine
-- USP {Nimble's Unique version} [.45 ACP (11.43x23mm)] 12rd magazine
-- Walther P99 (regular/custom) [9x19mm Parabellum] 15rd magazine 
+3. USP45 [ .45 ] ( .45 ACP Suppressor )
+Normal : 71% / 82% / 36.dmg / 240 RPM / 12
+Custom : 74% / 82% / 36.dmg / 273 RPM / 12
 
-2,1) Pistoale Automate 
-- APS [9x18mm Makarov] 20rd magazine
-- Cz 75 Auto [9x19mm Parabellum] 15rd magazine
-- OC-33 «Pernach» ("Mace") [9x18mm Makarov] 18rd- or 27rd-magazine
-- Sa vz.61 Škorpion (regular/alternate/camouflage) [9x18mm Makarov] 20rd magazine
-- Sa vz.61 Škorpion {Freedom faction version} [9x19mm Parabellum] 20rd magazine
-- SIG P220 Alpine {Nimble's Unique version} [9x19mm Parabellum] 10rd or 14rd magazine; 3-round burst. 
-_______________________________________________________________________________________________________________
+4. TT-33  [ 7.62x25 ] ( none )
+Normal : 60% / 79% / 30.dmg / 210 RPM / 8
+Modern : 64% / 79% / 30.dmg / 240 RPM / 8
 
-3) Arme de PD
-- FN P90 [5.7x28mm FN] 50rd magazine
-- Heckler & Koch MP-7 [9x19mm Parabellum] 20rd- or 40rd- magazine
-___________________________________________________________________
+5. SIG P220 [ .45 ] ( .45 ACP Suppressor )
+Normal : 64% / 81% / 36.dmg / 225 RPM / 7
+Alpine : 68% / 81% / 36.dmg / 244 RPM / 7
+Custom : 66% / 81% / 36.dmg / 280 RPM / 7
 
-4) SMG
-- HK MP5 (alternate/custom) [9x19mm Parabellum] 30rd magazine
-- HK MP5 Frasier {Nimble’s Unique version} [.45 ACP (11.43x23mm)] 30rd magazine
-- HK MP5SD (regular/custom/new) [9x19mm Parabellum] 30rd magazine
-- HK UMP45 (regular/custom) [.45 ACP (11.43x23mm)] 30rd magazine
-- PP-19 «Bizon» ("Bison") [9x18mm Makarov] 72rd helical drum
-- PP-19-01 «Vityaz» ("Knight") [9x18mm Makarov] 30rd magazine
-- PP-2000 [9x19mm Parabelum] 20rd magazine
-- PPSh-41 (regular/red-new/new) [7.62x25mm Tokarev] 35rd magazine or 70rd drum 
-_________________________________________________________________________________
+6. PM [ 9x18 ] ( none )
+Normal : 58% / 85% / 30.dmg / 315 RPM / 8
+PMM    : 62% / 85% / 30.dmg / 245 RPM / 12
+Custom : 60% / 85% / 30.dmg / 340 RPM / 8
+CM PM  : 62% / 85% / 30.dmg / 305 RPM / 8
 
-5) Shotgun
-- Armsel Protecta (regular/camouflage/custom) [12 Gauge 2.75" (18.5x70mmR)] 12-shell cylinder
-- Armsel Protecta w/. Red Dot Sight [12 Gauge 2.75" (18.5x70mmR)] 12-shell cylinder
-- Baikal MP-133 Pump Action [12 Gauge 3" Magnum (18.5x76mmR)]
-- Baikal MP-153 Semi-Auto [12 Gauge 3" Magnum (18.5x76mmR)]
-- Fort-500 Pump Action [12 Gauge 3" Magnum (18.5x76mmR)]
-- Franchi SPAS-12 (regular/camouflage) [12 Gauge 2.75" (18.5x70mmR)]
-- Franchi SPAS-12 Carabinier {Nimble's Unique version} [12 Gauge 2.75" (18.5x70mmR)] 10-shell tube
-- TOZ-66 Side/Side Shotgun (regular/alternate) [12 Gauge 3" Magnum (18.5x76mmR)] break-open breach (2-shell capacity)
-- TOZ-66 Sawn-Off (regular/alternate) [12 Gauge 3" Magnum (18.5x76mmR)] break-open breach (2-shell capacity)
-- TOZ-34 Over/Under Shotgun (regular/custom/engraved) [12 Gauge 3" Magnum (18.5x76mmR)] break-open breach (2-shell capacity)
-- TOZ-34 Sawn-Off (regular/custom/engraved) [12 Gauge 3" Magnum (18.5x76mmR)] break-open breach (2-shell capacity)
-- TOZ-34 Scoped w/ 14x Leupold Mark 4 [12 Gauge 3" Magnum (18.5x76mmR) {18.5mm Slug}] break-open breach (2-shell capacity)
-- TOZ-34M «Bizon» ("Bison") w/. Red Dot sight [12 Gauge 3.5" Super Magnum (18.5x89mmR) {18.5mm Saboted Dart}] break-open breach (2-shell capacity)
-- TOZ-194 Compact Pump Action w/. pistolgrip buttstock [12 Gauge 2.75" (18.5x70mmR)] 4-shell tube
-- Mossberg 590 Pump Action [12 Gauge 2.75" (18.5x70mmR)] 9-shell tube
-- Remington 870 Pump Action [12 Gauge 2.75" (18.5x70mmR)]
-- Saiga 12S [12 Gauge 2.75" (18.5x70mmR)]
-- USAS-12 Auto Shotgun {Dushman Unique weapon} [12 Gauge 2.75" (18.5x70mmR)] 20-shell drum
-- Vepr-12 [12 Gauge 2.75" (18.5x70mmR)]
-- Winchester-1300 [12 Gauge 2.75" (18.5x70mmR)]
-- Winchester-1300 Trapper [12 Gauge 2.75" (18.5x70mmR)] 
-______________________________________________________________________________________________________________________________________________________
+7. PB [ 9x18 ] ( 6P9 Suppressor )
+Normal : 60% / 83% / 30.dmg / 305 RPM / 8
+Modern : 62% / 83% / 30.dmg / 325 RPM / 8
 
-6) Rifle
-- 9A-91 Carbine [9x39mm Russian Subsonic] 20rd magazine
-- AN-94 «Abakan» (regular/camouflage) [5.45x39mm Soviet M74] 30-rd magazine.
-- AEK-971 (regular/camouflage) [5.45x39mm Soviet M74] 30rd magazine or 60rd "coffin" drum
-- AEK-971 {Duty faction version} [5.45x39mm Soviet M74] 30rd magazine or 60rd "coffin" drum
-- AK-47 Automatic Rifle [7.62x39mm Soviet M43] 30rd magazine
-- AK-74N Automatic Rifle w/. scope mount (regular/alternate/custom/modern/old) [ 5.45x39mm Soviet M74] 30rd magazine
-- AK-74N Automatic Rifle w/. EOTech scope [5.45x39mm Soviet M74] 30rd magazine
-- AK-74M Automatic Rifle (regular/alternate/custom/camo) [ 5.45x39mm Soviet M74] 30rd magazine
-- AK-74M Automatic Rifle {Duty faction version} [ 5.45x39mm Soviet M74] 30rd magazine
-- AK-74M PK-A Scoped Automatic Rifle [ 5.45x39mm Soviet M74] 30rd magazine
-- AK-74UN Automatic Sub-Carbine w/. scope mount (regular/camouflage/custom/old) [ 5.45x39mm Soviet M74] 30rd magazine
-- AK-74UN Spetsnaz Automatic Sub-Carbine w/. scope mount [ 5.45x39mm Soviet M74] 30rd magazine
-- AK-101 Automatic Rifle (regular/camouflage) [5.56x45mm NATO] 30rd magazine
-- AK-102 Automatic Carbine [5.56x45mm NATO] 30rd magazine
-- AK-103 Automatic Rifle (regular/camouflage) [7.62x39mm Soviet M43] 30rd magazine
-- AK-104 Automatic Carbine [7.62x39mm Soviet M43] 30rd magazine
-- AK-105 Automatic Carbine [ 5.45x39mm Soviet M74] 30rd magazine
-- AK-12 «Ratnik» (“Warrior”) Automatic Rifle [5.45x39mm Soviet M74] 30rd magazine
-- AKM Automatic Rifle [7.62x39mm Soviet M43] 30rd magazine
-- AKMS Automatic Rifle (regular/alternate) [7.62x39mm Soviet M43] 30rd magazine
-- AKS Automatic Rifle [7.62x39mm Soviet M43] 30rd magazine
-- AKS-74 Automatic Rifle (regular/alternate) [ 5.45x39mm Soviet M74] 30rd magazine
-- ASh 12.7 Assault Rifle [12.7x55mm Soviet ASh] 20-round magazine
-- Colt M16 Assault Rifle [5.56x45mm NATO] 30rd magazine
-- Colt M16A2 Assault Rifle [5.56x45mm NATO] 30rd magazine
-- Colt M4 Carbine [5.56x45mm NATO] 30rd magazine
-- Colt M4A1 Carbine (regular/camouflage/custom) [5.56x45mm NATO] 30rd magazine
-- Colt M4A1 Carbine {Freedom faction version} [5.56x45mm NATO] 30rd magazine
-- FAMAS [5.56x45mm NATO] 25-round magazine
-- FN-2000 (regular/camouflage/custom) [5.56x45mm NATO] 30rd magazine
-- FN-2000 {Nimble Unique version} [5.56x45mm NATO] 30rd magazine
-- FN FAL Battle Rifle [7.62x51mm NATO] 20rd magazine
-- FN FNC Assault Rifle [5.56x45mm NATO] 30rd magazine
-- HK G3A3 Battle Rifle [7.62x51mm NATO] 20rd magazine
-- HK G36 Assault Rifle (regular/camouflage) [5.56x45mm NATO] 30rd magazine
-- HK G36 Assault Rifle {Nimble Unique version} [5.56x45mm NATO] 30rd magazine
-- HK G36K Assault Carbine [5.56x45mm NATO] 30rd magazine
-- HK 416 Assault Carbine [5.56x45mm NATO] 30rd magazine
-- HK 417 Battle Rifle [7.62x51mm NATO] 20rd magazine
-- IMI Galil (regular/custom/modern)
-- IMI Galil ACE
-- L85 Individual Weapon (regular/alternate/custom/modern) [5.56x45mm NATO] 30rd magazine
-- L85A2 Individual Weapon w/. quad accessory rail forend (regular/alternate/custom/modern) [5.56x45mm NATO] 30rd magazine
-- FN SCAR-H (regular/custom/new) [7.62x51mm NATO] 20rd magazine
-- SIG-550 (regular/camouflage/custom) [5.56x45mm NATO] 30rd magazine
-- SIG-550 {Strelok's Unique item} [5.56x45mm NATO] 30rd magazine
-- SIG-552 Commando [5.56x45mm NATO] 30rd magazine
-- SKS (reg/modern) 10rd internal magazine {5rd clips}
-- Steyr AUG-77 (regular/custom/modern) [5.56x45mm NATO] 30rd magazine
-- Steyr AUG-77 {Freedom faction version} [5.56x45mm NATO] 30rd magazine
-- Steyr AUG-77 {Mercenary faction version} [5.56x45mm NATO] 30rd magazine
-- Steyr AUG A3 [5.56x45mm NATO] 30rd magazine
-- SR-3M «Vikhr» ("Whirlwind") [9x39mm Russian Subsonic] 30rd magazine
-- Type-63 Rifle [7.62x39mm Soviet M43] 30rd magazine (5rd clips)
-- Walther Gewehr 43 [7.9x57mm Mauser] 10rd detachable box magazine (5-round clips)
-- XM-8 Carbine [5.56x45mm NATO] 30rd magazine
-- ZM LR-300 (regular/custom/camouflage) [5.56x45mm NATO] 30rd magazine
-___________________________________________________________________________________________________________________
+8. OTs-33 Pernach [ 9x18 ] ( APS Suppressor )
+Normal : 67% / 81% / 30.dmg / 800 RPM / 27
 
-7) Sniper
-- Accuracy International L96A1 [7.62x51mm NATO]
-- Accuracy International L96A1M
-- AS «Val» ("Shaft") (regular/modern) [9x39mm Subsonic]
-- Barrett M82 [.50 BMG (12.7x99mm)] 10rd magazine
-- Barrett M98B "Bravo" [.338 Lapua Magnum (8.58×70mm)] 10rd magazine
-- Gauss Rifle
-- Heckler & Koch G3/SG1 Sniper [7.62x51mm NATO] 5rd- or 10rd-magazine
-- KAC SR-25 [7.62x51mm NATO] 10rd- or 20rd-magazine
-- M24 SWS "Green Dragon" [7.62x51mm NATO]
-- Mauser Kar98 [7.9x57mm Mauser]
-- Mosin M1891/30 [7.62x54mm Russian M91]
-- NSWDC MK.14 EBR [7.62x51mm NATO]
-- Remington 700
-- Sako TRG
-- SIG SchützenGewehr 550-1 Sniper [5.56x45mm NATO] 5rd- or 20rd-magazine
-- SV-98 (regular/custom)
-- SVD (regular/custom) [7.62x54mmR Russian M91] 10rd magazine
-- SVD {Lynx’s Unique version} [7.62x54mmR Russian M91] 10rd magazine
-- SVT-40 (regular/modern) [7.62x54mmR Russian M91] 10rd magazine
-- SVU Bullpup (regular/alternate) [7.62x54mmR Russian M91]
-- SVU Bullpup {Nimble’s Unique version} [7.62x54mmR Russian M91]
-- VSK-94 [9x39mm Russian subsonic] 20rd magazine
-- VSS «Vintorez» (“Thread Cutter”) (regular/alternate) [9x39mm Russian Subsonic]
-- VSS «Vintorez» (“Thread Cutter”) w/. 1pn93 Night Vision scope [9x39mm RussianSubsonic]
-- VSS «Vintorez» (“Thread Cutter”) {Tide’s Unique version} [9x39mm Russian Subsonic]
-- VSSK «Vykhlop» ("Exhaust") [12.7x55mm STs-130]
-- Walther WA 2000 [.300 Winchester Magnum] 
-____________________________________________________________________________________________
+9. MP-443 Grach [ 9x19 ] ( none )
+Normal : 74% / 84% / 30.dmg / 293 RPM / 18
 
-8) MachineGun
-- FN M249 SAW [5.56x45mm NATO] 100rd belt
-- PKM [7.62x54mmR Russian M91] 100rd belt
-- PKM {Zulu’s Unique version} [7.62x54mmR Russian M91] 100rd belt
-- PKP «Pecheneg» [7.62x54mmR Russian M91] 100rd belt
-- RPD [7.62x39mm Soviet M43] 100rd belt
-- RPK SAW [7.62x39mm Soviet M43] 40rd magazine
-- RPK-74 SAW [5.45x39mm Soviet M74] 45rd magazine
-- Saco M60 GPMG [7.62x51mm NATO] 100rd belt 
-__________________________________________________________________________
+10. MP-412 Rex [ .357 HP ] ( none )
+Normal : 64% / 83% / 40.dmg / 225 RPM / 6
 
-9) Grenade
-- F1 Fragmentation Grenade
-- RGD-5 Defensive Grenade
-- Smoke Grenade 
-________________________________
+11. Browning Hi-Power [ 9x19 ] ( 9x19 Compatible Suppressor )
+Normal : 64% / 82% / 30.dmg / 265 RPM / 13
+Alt    : 66% / 82% / 30.dmg / 290 RPM / 13
 
-10) Grenade Launchere cu Grenazi
-RG-6 Bulldog Grenade Launcher [40mm Caseless] 6-shell rotary drum.
---VOG-25 shell
---VOG-25R shell
-RPG-7u: Rocket Launcher.
---OG-7V fragmentation warhead
-M79 Grenade Launcher [40x46mmSR NATO]: Break-open breach-loading single-shot grenade-launcher.
---M209 HE Grenade Shell
-OC-14-4A «Groza» w/. GP-30 Grenade Launcher [7.62x39mm Soviet M43 / 40mm Caseless]
---VOG-25 shell
---VOG-25R shell 
+12. Gsh-18 [ 9x19 ] ( none )
+Normal : 72% / 82% / 30.dmg / 280 RPM / 18
+Custom : 74% / 82% / 30.dmg / 350 RPM / 18
+
+13. Glock 19 [ 9x19 ] ( GemTech Suppressor )
+Normal : 77% / 82% / 30.dmg / 270 RPM / 17
+Custom : 80% / 82% / 30.dmg / 280 RPM / 17
+Alt    : 76% / 82% / 30.dmg / 525 RPM / 17
+
+14. Fort-17 [ 9x18 ] ( 9x19 Compatible Suppressor )
+Normal : 63% / 84% / 30.dmg / 240 RPM / 12
+
+15. FNX-45 Tactical [ .45 ] ( GemTech Suppressor, FNX Tactical Sight )
+Normal : 71% / 82% / 36.dmg / 260 RPM / 15
+Custom : 73% / 82% / 36.dmg / 290 RPM / 15
+Alt    : 69% / 82% / 36.dmg / 250 RPM / 15
+
+16. FNP-45 [ .45 ] ( GemTech Suppressor )
+Normal : 73% / 82% / 36.dmg / 253 RPM / 15
+Custom : 74% / 82% / 36.dmg / 268 RPM / 15
+
+17. FN Five-seveN [ 5.7x28 ] ( none )
+Normal : 74% / 82% / 30.dmg / 245 RPM / 20
+
+18. Desert Eagle [ .357 HP ] ( none )
+Normal : 57% / 79% / 40.dmg / 240 RPM / 9
+Custom : 76% / 80% / 40.dmg / 238 RPM / 9
+Modern : 68% / 79% / 40.dmg / 252 RPM / 9
+
+18.1 Desert Eagle "Steppe Eagle" [ .357 HP ]( DOCTER Sight )
+Normal : 61% / 79% / 40.dmg / 263 RPM / 9
+
+19. CZ-75 [ 9x19 ] ( 9x19 Compatible Suppressor )
+Normal : 73% / 84% / 30.dmg / 258 RPM / 16
+
+19.1 CZ-75 Automatic [ 9x19 ] ( none )
+Normal : 70% / 84% / 30.dmg / 1000 RPM / 16
+
+20. CZ 52 [ 7.62x25 ] ( none )
+Normal : 90% / 88% / 30.dmg / 305 RPM / 8
+
+21 Colt M1911 [ .45 ] ( .45 ACP Suppressor )
+Normal : 60% / 83% / 36.dmg / 230 RPM / 7
+Alt    : 61% / 83% / 36.dmg / 235 RPM / 7
+New    : 60% / 83% / 36.dmg / 232 RPM / 7
+Modern : 63% / 83% / 36.dmg / 250 RPM / 7
+Custom : 62% / 83% / 36.dmg / 246 RPM / 7
+Camo   : 65% / 83% / 36.dmg / 285 RPM / 7
+D.Camo : 64% / 84% / 36.dmg / 275 RPM / 7
+M.Camo : 70% / 83% / 36.dmg / 240 RPM / 7
+
+22.Beretta 92F [ 9x19 ] ( 9x19 Compatible Suppressor )
+Normal : 68% / 84% / 30.dmg / 325 RPM / 15
+Modern : 70% / 84% / 30.dmg / 370 RPM / 15
+Alt    : 69% / 84% / 30.dmg / 363 RPM / 15
+Camo   : 73% / 84% / 30.dmg / 325 RPM / 15
+
+23. APS [ 9x18 ] ( APS Suppressor )
+Normal : 56% / 82% / 30.dmg / 650 RPM / 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
