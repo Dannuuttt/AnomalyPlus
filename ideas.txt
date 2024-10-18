@@ -6,7 +6,7 @@
 
 A) Arme
 
-1) Cutite:
+1) Cutite: (Adauga Statistici)
 
 AK-47 bayonet
 Hunting knife
@@ -14,12 +14,12 @@ M9 bayonet
 NR-40 Finka combat knife
 Spetsnaz switchblade
 
-1.1) Topoare:
+1.1) Topoare: (Adauga Statistici)
 Axe
 Fire Axe
 Hunting Axe
 
-2) Pistoale
+2) Pistoale (Adauga Statistici)
 - Beretta 92F (regular/alternate/camouflage/modern) [9x19mm Parabellum] 15rd magazine
 - Colt M1911 (regular/alternate/camouflage/custom/modern/new) [.45 ACP (11.43x23mm)] 7rd magazine
 - Colt M1911 {Duty faction version} [.45 ACP (11.43x23mm)] 7rd magazine
