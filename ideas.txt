@@ -6,7 +6,9 @@
 
 A) Arme
 
-### Cutite
+<details>
+  <summary>Cutite</summary>
+
 1) Cutite: (Adauga Statistici)
 
 AK-47 bayonet
@@ -15,12 +17,16 @@ M9 bayonet
 NR-40 Finka combat knife
 Spetsnaz switchblade
 
-### Topoare
+<details>
+  <summary>Topoare</summary>
 
 1.1) Topoare: (Adauga Statistici)
 Axe
 Fire Axe
 Hunting Axe
+
+<details>
+  <summary>Pistoale</summary>
 
 2) Pistoale (Adauga Statistici)
 - Beretta 92F (regular/alternate/camouflage/modern) [9x19mm Parabellum] 15rd magazine
