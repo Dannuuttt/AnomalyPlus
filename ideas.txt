@@ -3,3 +3,48 @@
 [1] Sistem original de balansare(general)
 
 [2] Sa notam toate armele,artefactele si armurile din joc impreuna cu statisticele lor. (balance changes)
+
+A) Arme
+
+1) Cutite:
+
+AK-47 bayonet
+Hunting knife
+M9 bayonet
+NR-40 Finka combat knife
+Spetsnaz switchblade
+
+1.1) Topoare:
+Axe
+Fire Axe
+Hunting Axe
+
+2) Pistoale
+- Beretta 92F (regular/alternate/camouflage/modern) [9x19mm Parabellum] 15rd magazine
+- Colt M1911 (regular/alternate/camouflage/custom/modern/new) [.45 ACP (11.43x23mm)] 7rd magazine
+- Colt M1911 {Duty faction version} [.45 ACP (11.43x23mm)] 7rd magazine
+- Colt M1911 {Mercenary faction version} [.45 ACP (11.43x23mm)] 7rd magazine
+- Colt Kimber Desert Warrior [.45 ACP (11.43x23mm)] 7rd magazine
+- Cz 52 [7.62x25mm Tokarev] 8rd magazine
+- Cz 75 [9x19mm Parabellum] 15rd magazine
+- Desert Eagle (regular/custom/modern) [.357 Magnum (9x33mmR)] 9rd magazine
+- Desert Eagle w/. red dot sight {Nimble's Unique version} [.357 Magnum (9x33mmR)] 9rd magazine
+- FN Five-seveN [5.7x28mm FN] 20rd magazine
+- FNP45 (regular/custom) [.45 ACP (11.43x23mm)] 15rd magazine
+- FNX45 w/. silencer and holographic sight (regular/alternate/custom) [.45 ACP (11.43x23mm)] 15rd magazine
+- Fort 12 (regular) [9x18mm Makarov] 12rd magazine
+- Fort 12 {Snag's Unique item} [9x18mm Makarov] 12rd magazine
+- Glock 19 Compact (regular/custom/modern) [9x19mm Parabellum] 15rd magazine.
+- GSh-18 (regular/custom) [9x19mm Parabellum] 18rd magazine
+- Browning Hi-Power (regular/alternate) [9x19mm Parabellum] 13rd magazine
+- MP-412 REX ("Revolver for EXport") [.357 Magnum (9x33mmR)] 6rd cylinder.
+- MP-443 «Grach» ("Raven") [9x19mm Parabellum] 18rd magazine
+- PB-1 Silenced Pistol (regular/custom) [9x18mm Makarov] 8rd magazine.
+- PM (regular/custom/engraved) [9x18mm Makarov] 8rd magazine.
+- PMM [9x18mm Makarov] 12rd magazine
+- SIG P220 (regular/custom) [9x19mm Parabellum] 7rd magazine
+- Tokarev TT-33 (regular/modern) [7.62x25mm Tokarev] 8rd magazine
+- USP [.45 ACP (11.43x23mm)] 12rd magazine
+- USP Match [.45 ACP (11.43x23mm)] 12rd magazine
+- USP {Nimble's Unique version} [.45 ACP (11.43x23mm)] 12rd magazine
+- Walther P99 (regular/custom) [9x19mm Parabellum] 15rd magazine 
