@@ -1,1 +1,74 @@
+Accuracy
+Handling
+Damage
+Fire Rate
+Mag.size
+___________________________________________________________________
+
+1. TOZ-34 [ 12x70 ] ( none )
+Normal: 52% / 55% / 180.dmg / 1200 RPM / 2
+Custom: 54% / 55% / 180.dmg / 1200 RPM / 2
+Deco  : 57% / 55% / 180.dmg / 1100 RPM / 2
+
+2. TOZ-66 [ 12x70 ] ( none )
+Normal: 43% / 67% / 180.dmg / 1000 RPM / 2
+Alt   : 46% / 67% / 180.dmg / 1000 RPM / 2 
+
+3. TOZ-194 [ 12x70 ] ( none ) 
+Normal: 62% / 63% / 189.dmg / 50 RPM / 7
+
+4. TOZ-34 [ 12x70 ] ( none ) 
+Normal: 76% / 55% / 189.dmg / 1000 RPM / 2
+Custom: 71% / 55% / 189.dmg / 1200 RPM / 2
+Deco  : 73% / 55% / 189.dmg / 1100 RPM / 2
+"Bull": 80% / 55% / 166.dmg / 200 RPM / 2
+
+5. MP-133 [ 12x70 ] ( none )
+Normal: 69% / 59% / 189.dmg / 6
+
+6. Fort-500 [ 12x70 ] ( none )
+Normal: 64% / 88% / 189.dmg / 6
+
+7. TOZ-66 [ 12x70 ] ( none )
+Normal: 76% / 57% / 180.dmg / 1000 RPM / 2
+Alt   : 73% / 57% / 180.dmg / 1000 RPM / 2
+
+8. Vepr-12 "Hammer" [ 12x70 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes; PBS-1 Suppressor)
+Normal: 68% / 77% / 180.dmg / 240 RPM / 12
+
+9. USAS-12 [ 12x70 ] ( none )
+Normal: 63% / 59% / 180.dmg / 360 RPM / 20
+
+10. TOZ-34 "Bizon" [ 12x70 ] ( Leupold Mark 4 scope )
+Normal: 76% / 55% / 189.dmg / 800 RPM / 2
+
+11. SPAS-12 [ 12x70 ] ( none )
+Normal: 68% / 59% / 189.dmg / 115 RPM / 8
+Custom: 70% / 59% / 189.dmg / 130 RPM / 8
+Modern: 71% / 59% / 198.dmg / 115 RPM / 8
+
+12. Remington 870 [ 12x70 ] ( Barska ES AC10632, C-more Railway Tactical, EOTech scopes )
+Normal: 69% / 88% / 189.dmg / 45 RPM / 8
+
+13. Saiga-12S [ 12x70 ] ( EKP-8-02 Kobra, PSO-1 scopes, PBS-1 )
+Normal: 69% / 77% / 180.dmg / 220 RPM / 10
+
+14. Armsel Protecta [ 12x70 ] ( none )
+Normal: 64% / 63% / 180.dmg / 155 RPM / 12
+Custom: 57% / 63% / 180.dmg / 191 RPM / 12
+Camo  : 60% / 63% / 180.dmg / 155 RPM / 12
+Custom: 58% / 63% / 180.dmg / 168 RPM / 12
+
+14.1. Armsel Protecta [ 12x70 ] ( "Aimpoint" sight )
+Modern: 64% / 63% / 180.dmg / 150 RPM / 12
+
+15. TOZ-194 [ 12x70 ] ( none )
+Normal: 62% / 63% / 189.dmg / 50 RPM / 7
+
+16. Mossberg 590A1 [ 12x70 ] ( none )
+Normal: 66% / 63% / 189.dmg / 60 RPM / 8
+
+17. MP-153 [ 12x70 ] ( none )
+Normal: 66% / 59% / 189.dmg / 200 RPM / 8 
+
 
