@@ -3,6 +3,7 @@ Handling
 Damage
 Fire Rate
 Mag.size
+___________________________________________________________________
  
 1. Walther P99 [ 9x19 ] ( 9x19 Suppressor ) 
 Normal : 53% / 85% / 30.dmg / 260 RPM / 16 { wpn_walther }
