@@ -6,6 +6,7 @@
 
 A) Arme
 
+### Cutite
 1) Cutite: (Adauga Statistici)
 
 AK-47 bayonet
@@ -13,6 +14,8 @@ Hunting knife
 M9 bayonet
 NR-40 Finka combat knife
 Spetsnaz switchblade
+
+### Topoare
 
 1.1) Topoare: (Adauga Statistici)
 Axe
