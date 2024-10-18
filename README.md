@@ -1,16 +1,16 @@
 Anomaly+
 
-    Welcome to Anomaly+
+Welcome to Anomaly+
 
-    This is a Modpack for Original S.T.A.L.K.E.R Anomaly which aims to rebalance, change and create new gameplay features, with complete graphical overhaul, tons of new mutants, anomalies and a rework for storylines.
+This is a Modpack for Original S.T.A.L.K.E.R Anomaly which aims to rebalance, change and create new gameplay features, with complete graphical overhaul, tons of new mutants, anomalies and a rework for storylines.
 
 Contributions
 
-    Pull requests can be made under the dev branch.
+Pull requests can be made under the dev branch.
 
 Discord
 
-    For tutorials and help feel free to join our discord: https://discord.gg/dr3gytzMSX
+For tutorials and help feel free to join our discord: https://discord.gg/dr3gytzMSX
 
 Credits
 
