@@ -4,7 +4,7 @@
 
 - This is a Modpack for Original S.T.A.L.K.E.R Anomaly.
 
-- This modpack aims to rebalance, change and create new gameplay features, with complete graphical overhaul, tons of new mutants and anomalies and changed storylines. 
+- This modpack aims to rebalance, change and create new gameplay features, with complete graphical overhaul, tons of new mutants, anomalies and changed storylines. 
 
 # Contributions
 
