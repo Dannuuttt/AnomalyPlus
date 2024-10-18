@@ -6,6 +6,8 @@
 
 A) Arme
 
+_________________________________
+
 1) Cutite: (Adauga Statistici)
 
 AK-47 bayonet
@@ -14,10 +16,14 @@ AK-47 bayonet
 - NR-40 Finka combat knife
 - Spetsnaz switchblade
 
+__________________________________
+
 1.1) Topoare: (Adauga Statistici)
 - Axe
 - Fire Axe
 - Hunting Axe
+
+___________________________________
 
 2) Pistoale (Adauga Statistici)
 - Beretta 92F (regular/alternate/camouflage/modern) [9x19mm Parabellum] 15rd magazine
@@ -48,3 +54,7 @@ AK-47 bayonet
 - USP Match [.45 ACP (11.43x23mm)] 12rd magazine
 - USP {Nimble's Unique version} [.45 ACP (11.43x23mm)] 12rd magazine
 - Walther P99 (regular/custom) [9x19mm Parabellum] 15rd magazine 
+
+_______________________________________________________________________________________________________________
+
+
