@@ -6,7 +6,7 @@
 
 # Contributions
 
-- Pull requests can be made under the dev branch.
+-  Please only make Pull requests under the dev branch.
 
 # Discord
 
