@@ -207,8 +207,8 @@ Normal: 67% / 80% / 32.dmg / 600 RPM / 30
 Normal: 77% / 76% / 33.dmg / 600 RPM / 30
 Camo  : 82% / 76% / 33.dmg / 640 RPM / 30
 
-15. AK-47 [ 7.62x39 ] ( PBS-1 Suppressor, GP-25 Grenade Launcher )
+45. AK-47 [ 7.62x39 ] ( PBS-1 Suppressor, GP-25 Grenade Launcher )
 Normal: 67% / 72% / 38.dmg / 600 RPM / 30
 
-16. AEK [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, TGP-A Suppressor, GP-25 Grenade Launcher )
+46. AEK [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, TGP-A Suppressor, GP-25 Grenade Launcher )
 Normal: 84% / 77% / 33.dmg / 900 RPM / 30
