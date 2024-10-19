@@ -234,4 +234,9 @@ Zulu's: 77% / 70% / 51.dmg / 680 RPM / 100 { wpn_pkm_zulus }
 Normal: 77% / 70% / 51.dmg / 650 RPM / 100 { wpn_pkm_pkp }
 
 52. Mk 14 EBR [ 7.62x51 ] ( ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech scopes )
-Normal: 86% / 88% / 50.dmg / 725 RPM / 20 { wpn_mk14 }
+Normal: 86% / 88% / 50.dmg / 725 RPM / 20 { wpn_mk14 } 
+
+53. FAMAS F3 [ 5.56x45 ] ( 5.56x45 compatible suppressor, ACOG/Braska ES AC10632/EOTech scopes )
+Normal: 79% / 78% / 33.dmg / 950 RPM / 30 { wpn_famas3 }
+
+
