@@ -163,3 +163,52 @@ Alt   : 69% / 72% / 38.dmg / 620 RPM / 30
 
 36. AKMN [ 7.62x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, PBS-1 Suppressor, GP-25 Grenade Launcher )
 Normal: 70% / 72% / 38.dmg / 600 RPM / 30
+
+37. AK-74M [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, TGP-A Suppressor, GP-25 Grenade Launcher )
+Normal: 78% / 76% / 33.dmg / 600 RPM / 30
+Custom: 80% / 76% / 33.dmg / 650 RPM / 30
+Alt   : 78% / 76% / 33.dmg / 635 RPM / 30
+Camo  : 82% / 76% / 33.dmg / 650 RPM / 30
+D.Camo: 80% / 76% / 33.dmg / 600 RPM / 30
+PK-A  : 80% / 76% / 33.dmg / 650 RPM / 30
+
+37.1 AK-74UNB [ 5.45x39 ] ( EKP-1S-03 Kobra sight, PBS-4 Suppressor )
+Normal: 64% / 83% / 26.dmg / 750 RPM / 45
+
+38. AK-74N [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, TGP-A Suppressor, GP-25 Grenade Launcher )
+Normal: 76% / 76% / 33.dmg / 650 RPM / 30
+Custom: 81% / 76% / 33.dmg / 640 RPM / 30
+Alt   : 80% / 76% / 33.dmg / 660 RPM / 30
+Modern: 77% / 76% / 33.dmg / 680 RPM / 30
+
+38.1 AK-74N "EOTech" [ 5.45x39 ] ( EOTech sight, TGP-A Suppressor, GP-25 Grenade Launcher )
+Normal: 74% / 76% / 33.dmg / 683 RPM / 45
+
+38.2 AK-74 [ 5.45x39 ] ( TGP-A Suppressor, GP-25 Grenade Launcher )
+Normal: 76% / 76% / 33.dmg / 650 RPM / 30
+
+39. AK-12 [ 5.45x39 ] ( ACOG, Barska ES AC10632, EOTech scopes, TGP-A Suppressor, GP-25 Grenade Launcher )
+Normal: 80% / 76% / 33.dmg / 650 RPM / 30
+
+40. AK-105 [ 5.45x39 ] ( EKP 1S-03 Kobra, 1P29, PSO-1 scopes, TGP-A Suppressor )
+Normal: 66% / 80% / 32.dmg / 650 RPM / 30
+
+41. AK-104 [ 7.62x39 ] ( EKP-8-02 Kobra, PSO-1 scopes, ATG Suppressor )
+Normal: 68% / 80% / 37.dmg / 600 RPM / 30
+
+42. AK-103 [ 7.62x39 ] ( EKP-8-02 Kobra, PSO-1 scopes, ATG Suppressor, GP-25 Grenade Launcher )
+Normal: 73% / 72% / 38.dmg / 600 RPM / 30
+Camo  : 80% / 72% / 38.dmg / 630 RPM / 30
+
+43. AK-102 [ 5.56x45 ] ( ACOG, Barska ES AC10632, EOTech, EKP-8-02 Kobra, PSO-1 scopes, ATG Suppressor )
+Normal: 67% / 80% / 32.dmg / 600 RPM / 30
+
+44. AK-101 [ 5.56x45 ] ( ACOG, Barska ES AC10632, EOTech, EKP-8-02 Kobra, PSO-1 scopes, ATG Suppressor, GP-25 Grenade Launcher )
+Normal: 77% / 76% / 33.dmg / 600 RPM / 30
+Camo  : 82% / 76% / 33.dmg / 640 RPM / 30
+
+15. AK-47 [ 7.62x39 ] ( PBS-1 Suppressor, GP-25 Grenade Launcher )
+Normal: 67% / 72% / 38.dmg / 600 RPM / 30
+
+16. AEK [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, TGP-A Suppressor, GP-25 Grenade Launcher )
+Normal: 84% / 77% / 33.dmg / 900 RPM / 30
