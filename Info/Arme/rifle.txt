@@ -1,1 +1,81 @@
+Accuracy
+Handling
+Damage
+Fire Rate
+Mag.size
+___________________________________________________________________
 
+1. SR-3M Vikhr [ 9x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1, PSO-1M2-1 scopes, SR-3M Suppressor )
+Normal: 78% / 82% / 41.dmg / 900 RPM / 30
+
+2. SIG SG552 Commando [ 5.56x45 ] ( ACOG, Barska ES AC10632, EOTech scopes ,5.56x45 Compatible Suppressor )
+
+3. OTs-14 Groza [ 9x39 ] ( PO 4x34 scope, GP-25 grenade launcher )
+Normal: 75% / 82% / 41.dmg / 700 RPM / 20
+
+3.1 OTS-14-1A Groza-1 [ 7.62x39 ] ( PO4x34 scopes, GP-25 grenade launcher )
+Normal: 80% / 72% / 38.dmg / 750 RPM / 30
+
+4. FN F2000 [ 5.56x45 ] ( FN2000 scope, 5x56 compatible suppressor )
+Normal: 84% / 80% / 34.dmg / 850 RPM / 30
+Custom: 85% / 80% / 34.dmg / 875 RPM / 30
+Camo  : 86% / 80% / 34.dmg / 860 RPM / 30
+
+4.1 FN 2000 EOTech [ 5.56x45 ] ( EOTech sight, 5x56 compatible suppressor )
+Normal: 80% / 80% / 34.dmg / 895 RPM / 30
+
+5. ASh-12.7 [ 12.7x55 ] ( ACOG, Barska ES AC10632, C-More Railway Tactical, EOTech scopes )
+Normal: 86% / 69% / 44.dmg / 650 RPM / 10
+
+6. AKS-74U [ 5.45x39 ] ( PBS-4 Suppressor )
+Normal: 61% / 83% / 26.dmg / 690 RPM / 30
+
+6.1 AKS-74U [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, PBS-4 Suppressor )
+Normal: 62% / 83% / 32.dmg / 700 RPM / 30
+Custom: 66% / 83% / 32.dmg / 715 RPM / 30
+Camo  : 64% / 83% / 32.dmg / 765 RPM / 30
+
+7. Galil ACE-21 [ 5.56x45 ] ( ACOG, Barska ES AC10632, EOTech scopes, 5.56x45 Compatible Suppressor )
+Normal: 80% / 70% / 32.dmg / 700 RPM / 35
+
+8. Type 63 [ 7.62x39 ] ( PU scope )
+Normal: 83% / 65% / 38.dmg / 700 RPM / 20
+
+9. XM8 [ 5.56x45 ] ( ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech scopes )
+Normal: 80% / 71% / 33.dmg / 750 RPM / 30
+
+10. VSK-94 [ 9x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1M2-1 )
+Normal: 83% / 82% / 41.dmg / 700 RPM / 20
+
+11. VSS Vintorez [ 9x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1M2-1 scopes, VSS Suppressor )
+Normal: 86% / 82% / 41.dmg / 800 RPM / 10
+Alt   : 87% / 82% / 41.dmg / 750 RPM / 10
+
+11.1 VSS Vintorez [ 9x39 ] ( 1PN93 "Tot" scope, VSS Suppressor )
+Normal: 86% / 82% / 41.dmg / 800 RPM / 10
+
+11.2 VSS Vintorez "Tide" [ 9x39 ] ( PSO-1 scope, VSS Suppressor )
+Normal: 89% / 82% / 42.dmg / 774 RPM / 10
+
+12. AS Val [ 9x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1M2-1 scopes, VSS Suppressor )
+Normal: 77% / 82% / 41.dmg / 900 RPM / 20
+Modern: 80% / 82% / 41.dmg / 840 RPM / 20
+
+13. SIG SG550 [ 5.56x45 ] ( ACOG, Barska ES AC10632, EOTech scopes, 5.56x45 Compatible Suppressor, M203 Grenade Launcher )
+Normal: 83% / 75% / 33.dmg / 700 RPM / 30
+Custom: 85% / 75% / 33.dmg / 750 RPM / 30
+Camo  : 86% / 77% / 33.dmg / 755 RPM / 30
+Arrow : 85% / 77% / 33.dmg / 800 RPM / 30
+
+14. FN SCAR-H [ 7.62x51 ] ( ACOG, Barska ES AC10632, EOTech scopes, 5.56x45 Compatible Suppresor, M203 Grenade Launcher )
+Normal: 88% / 72% / 50.dmg / 650 RPM / 20
+New   : 89% / 72% / 50.dmg / 663 RPM / 20
+Camo  : 91% / 72% / 50.dmg / 675 RPM / 20
+
+15. RPK [ 7.62x39 ] ( none )
+Normal: 77% / 72% / 38.dmg / 600 RPM / 40
+
+15.1 RPK-74N [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, TGP-A Suppressor )
+Normal: 81% / 73% / 34.dmg / 650 RPM / 45
+
+...........................................................................................
