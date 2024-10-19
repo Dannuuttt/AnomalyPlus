@@ -1,1 +1,10 @@
 
+1. 6H4 Bayonet { wpn_knife }
+1.1. NR-40 Scout's knife { wpn_knife2 }
+1.2. Hunting knife { wpn_knife3 }
+1.3. Spetsnaz switchblade { wpn_knife4 }
+1.4. M9 Bayonet { wpn_knife5 }
+
+2. Axe { wpn_axe }
+2.1 Fire axe { wpn_axe2 }
+2.2 Hunting axe { wpn_axe3 }
