@@ -12,226 +12,226 @@ Normal: 78% / 82% / 41.dmg / 900 RPM / 30 { wpn_vihr }
 Normal: 76% / 83% / 32.dmg / 780 RPM / 30 { wpn_sig552 }
 
 3. OTs-14 Groza [ 9x39 ] ( PO 4x34 scope, GP-25 grenade launcher )
-Normal: 75% / 82% / 41.dmg / 700 RPM / 20
+Normal: 75% / 82% / 41.dmg / 700 RPM / 20 { wpn_groza }
 
 3.1 OTS-14-1A Groza-1 [ 7.62x39 ] ( PO4x34 scopes, GP-25 grenade launcher )
-Normal: 80% / 72% / 38.dmg / 750 RPM / 30
+Normal: 80% / 72% / 38.dmg / 750 RPM / 30 { wpn_groza_nimble }
 
 4. FN F2000 [ 5.56x45 ] ( FN2000 scope, 5x56 compatible suppressor )
-Normal: 84% / 80% / 34.dmg / 850 RPM / 30
-Custom: 85% / 80% / 34.dmg / 875 RPM / 30
-Camo  : 86% / 80% / 34.dmg / 860 RPM / 30
+Normal: 84% / 80% / 34.dmg / 850 RPM / 30 { wpn_fn2000 }
+Custom: 85% / 80% / 34.dmg / 875 RPM / 30 { wpn_fn2000_custom }
+Camo  : 86% / 80% / 34.dmg / 860 RPM / 30 { wpn_fn2000_camo }
 
 4.1 FN 2000 EOTech [ 5.56x45 ] ( EOTech sight, 5x56 compatible suppressor )
-Normal: 80% / 80% / 34.dmg / 895 RPM / 30
+Normal: 80% / 80% / 34.dmg / 895 RPM / 30 { wpn_fn2000_nimble }
 
 5. ASh-12.7 [ 12.7x55 ] ( ACOG, Barska ES AC10632, C-More Railway Tactical, EOTech scopes )
-Normal: 86% / 69% / 44.dmg / 650 RPM / 10
+Normal: 86% / 69% / 44.dmg / 650 RPM / 10  { wpn_ash12 }
 
 6. AKS-74U [ 5.45x39 ] ( PBS-4 Suppressor )
-Normal: 61% / 83% / 26.dmg / 690 RPM / 30
+Normal: 61% / 83% / 26.dmg / 690 RPM / 30 { wpn_ak74u_old }
 
 6.1 AKS-74U [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, PBS-4 Suppressor )
-Normal: 62% / 83% / 32.dmg / 700 RPM / 30
-Custom: 66% / 83% / 32.dmg / 715 RPM / 30
-Camo  : 64% / 83% / 32.dmg / 765 RPM / 30
+Normal: 62% / 83% / 32.dmg / 700 RPM / 30 { wpn_ak74u }
+Custom: 66% / 83% / 32.dmg / 715 RPM / 30 { wpn_ak74u_custom }
+Camo  : 64% / 83% / 32.dmg / 765 RPM / 30 { wpn_ak74u_camp }
 
 7. Galil ACE-21 [ 5.56x45 ] ( ACOG, Barska ES AC10632, EOTech scopes, 5.56x45 Compatible Suppressor )
-Normal: 80% / 70% / 32.dmg / 700 RPM / 35
+Normal: 80% / 70% / 32.dmg / 700 RPM / 35 { wpn_ace21 }
 
 8. Type 63 [ 7.62x39 ] ( PU scope )
-Normal: 83% / 65% / 38.dmg / 700 RPM / 20
+Normal: 83% / 65% / 38.dmg / 700 RPM / 20 { wpn_type63 }
 
 9. XM8 [ 5.56x45 ] ( ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech scopes )
-Normal: 80% / 71% / 33.dmg / 750 RPM / 30
+Normal: 80% / 71% / 33.dmg / 750 RPM / 30 { wpn_xm8 }
 
 10. VSK-94 [ 9x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1M2-1 )
-Normal: 83% / 82% / 41.dmg / 700 RPM / 20
+Normal: 83% / 82% / 41.dmg / 700 RPM / 20 { wpn_vsk94 }
 
 11. VSS Vintorez [ 9x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1M2-1 scopes, VSS Suppressor )
-Normal: 86% / 82% / 41.dmg / 800 RPM / 10
-Alt   : 87% / 82% / 41.dmg / 750 RPM / 10
+Normal: 86% / 82% / 41.dmg / 800 RPM / 10 { wpn_vintorez }
+Alt   : 87% / 82% / 41.dmg / 750 RPM / 10 { wpn_vintorez_alt }
 
 11.1 VSS Vintorez [ 9x39 ] ( 1PN93 "Tot" scope, VSS Suppressor )
-Normal: 86% / 82% / 41.dmg / 800 RPM / 10
+Normal: 86% / 82% / 41.dmg / 800 RPM / 10 { wpn_vintorez_1p93 }
 
 11.2 VSS Vintorez "Tide" [ 9x39 ] ( PSO-1 scope, VSS Suppressor )
-Normal: 89% / 82% / 42.dmg / 774 RPM / 10
+Normal: 89% / 82% / 42.dmg / 774 RPM / 10 { wpn_vintorez_nimble  }
 
 12. AS Val [ 9x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1M2-1 scopes, VSS Suppressor )
-Normal: 77% / 82% / 41.dmg / 900 RPM / 20
-Modern: 80% / 82% / 41.dmg / 840 RPM / 20
+Normal: 77% / 82% / 41.dmg / 900 RPM / 20 { wpn_val }
+Modern: 80% / 82% / 41.dmg / 840 RPM / 20 { wpn_val_modern }
 
 13. SIG SG550 [ 5.56x45 ] ( ACOG, Barska ES AC10632, EOTech scopes, 5.56x45 Compatible Suppressor, M203 Grenade Launcher )
-Normal: 83% / 75% / 33.dmg / 700 RPM / 30
-Custom: 85% / 75% / 33.dmg / 750 RPM / 30
-Camo  : 86% / 77% / 33.dmg / 755 RPM / 30
-Arrow : 85% / 77% / 33.dmg / 800 RPM / 30
+Normal: 83% / 75% / 33.dmg / 700 RPM / 30 { wpn_sig550 }
+Custom: 85% / 75% / 33.dmg / 750 RPM / 30 { wpn_sig550_custom }
+Camo  : 86% / 77% / 33.dmg / 755 RPM / 30 { wpn_sig550_camo }
+Arrow : 85% / 77% / 33.dmg / 800 RPM / 30 { wpn_sig550_lukygun }
 
 14. FN SCAR-H [ 7.62x51 ] ( ACOG, Barska ES AC10632, EOTech scopes, 5.56x45 Compatible Suppresor, M203 Grenade Launcher )
-Normal: 88% / 72% / 50.dmg / 650 RPM / 20
-New   : 89% / 72% / 50.dmg / 663 RPM / 20
-Camo  : 91% / 72% / 50.dmg / 675 RPM / 20
+Normal: 88% / 72% / 50.dmg / 650 RPM / 20 { wpn_scar }
+New   : 89% / 72% / 50.dmg / 663 RPM / 20 { wpn_scar_mew }
+Camo  : 91% / 72% / 50.dmg / 675 RPM / 20 { wpn_scar_custom }
 
 15. RPK [ 7.62x39 ] ( none )
-Normal: 77% / 72% / 38.dmg / 600 RPM / 40
+Normal: 77% / 72% / 38.dmg / 600 RPM / 40 { wpn_rpk }
 
 15.1 RPK-74N [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, TGP-A Suppressor )
-Normal: 81% / 73% / 34.dmg / 650 RPM / 45
+Normal: 81% / 73% / 34.dmg / 650 RPM / 45 { wpn_rpk74 }
 
 16. PPSh-41 [ 7.62x25 ] ( none )
-Normal: 56% / 82% / 30.dmg / 880 RPM / 71
-Modern: 61% / 82% / 30.dmg / 900 RPM / 71
-Camo  : 64% / 82% / 30.dmg / 880 RPM / 71
+Normal: 56% / 82% / 30.dmg / 880 RPM / 71 { wpn_ppsh41 }
+Modern: 61% / 82% / 30.dmg / 900 RPM / 71 { wpn_ppsh41_woodnew }
+Camo  : 64% / 82% / 30.dmg / 880 RPM / 71 { wpn_oosh41_rednew }
 
 17. M4A1 [ 5.56x45 ] ( ACOG, Basrka ES AC10632, EOTech scopes, 5.56x45 Compatible Suppressor, M203 Grenade Launcher )
-Normal: 79% / 80% / 32.dmg / 770 RPM / 30
-Custom: 81% / 80% / 32.dmg / 820 RPM / 30
-Camo  : 82% / 81% / 32.dmg / 830 RPM / 30
-F.Camo: 80% / 80% / 32.dmg / 850 RPM / 30
-RAS   : 81% / 80% / 32.dmg / 750 RPM / 30
+Normal: 79% / 80% / 32.dmg / 770 RPM / 30 { wpn_m4a1 }
+Custom: 81% / 80% / 32.dmg / 820 RPM / 30 { wpn_m4a1_custom }
+Camo  : 82% / 81% / 32.dmg / 830 RPM / 30 { wpn_m4a1_camo }
+F.Camo: 80% / 80% / 32.dmg / 850 RPM / 30 { wpn_m4a1_freedom }
+RAS   : 81% / 80% / 32.dmg / 750 RPM / 30 { wpn_m4 }
 
 18. M249 SAW [ 5.56x45 ] ( ACOG, Barska ES AC10632, EOTech scopes )
-Normal: 76% / 75% / 34.dmg / 870 RPM / 100
+Normal: 76% / 75% / 34.dmg / 870 RPM / 100 { wpn_m249 }
 
 19. M16A2 [ 5.56x45 ] ( 5.56 Compatible Suppresor, M203 Grenade Launcher )
-Normal: 73% / 71% / 33.dmg / 700 RPM / 30
+Normal: 73% / 71% / 33.dmg / 700 RPM / 30 { wpn_m16a2 }
 
 20. M16A4 [ 5.56x45 ] ( ACOG, Basrka ES AC10632, EOTech scopes, 5.56x45 Compatible Suppresor, M203 Grenade Launcher )
-Normal: 86% / 71% / 33.dmg / 670 RPM / 30
+Normal: 86% / 71% / 33.dmg / 670 RPM / 30 { wpn_m16 }
 
 21. LR-300ML [ 5.56x45 ] ( ACOG, Basrka ES AC10632, EOTech scopes, 5.56x45 Compatible Suppressor, M203 Grenade Launcher )
-Normal: 78% / 78% / 32.dmg / 930 RPM / 30
-Custom: 81% / 78% / 32.dmg / 945 RPM / 30
-Camo  : 82% / 79% / 32.dmg / 920 RPM / 30
+Normal: 78% / 78% / 32.dmg / 930 RPM / 30 { wpn_lr300 }
+Custom: 81% / 78% / 32.dmg / 945 RPM / 30 { wpn_lr300_custom }
+Camo  : 82% / 79% / 32.dmg / 920 RPM / 30 { wpn_lr300_cmao }
 
 22. L85A2 [ 5.56x45 ] ( SUSAT 4X scope, 5.56x45 Compatible Suppresor )
-Normal: 88% / 79% / 34.dmg / 635 RPM / 30
-Custom: 91% / 82% / 34.dmg / 620 RPM / 30
-Alt   : 88% / 79% / 34.dmg / 665 RPM / 30
-Modern: 89% / 79% / 34.dmg / 650 RPM / 30
+Normal: 88% / 79% / 34.dmg / 635 RPM / 30 { wpn_l85a2 }
+Custom: 91% / 82% / 34.dmg / 620 RPM / 30 { wpn_l85a2_custom }
+Alt   : 88% / 79% / 34.dmg / 665 RPM / 30 { wpn_l85a2_alt }
+Modern: 89% / 79% / 34.dmg / 650 RPM / 30 { wpn_l85a2_modern }
 
 23. L85A1 [ 5.56x45 ] ( SUSAT scope, 5.56x45 Compatible Suppressor )
-Normal: 85% / 79% / 34.dmg / 680 RPM / 30
-Custom: 89% / 79% / 34.dmg / 693 RPM / 30
-Alt   : 86% / 79% / 34.dmg / 700 RPM / 30
-Modern: 87% / 79% / 34.dmg / 730 RPM / 30
+Normal: 85% / 79% / 34.dmg / 680 RPM / 30 { wpn_l85 }
+Custom: 89% / 79% / 34.dmg / 693 RPM / 30 { wpn_l85_custom }
+Alt   : 86% / 79% / 34.dmg / 700 RPM / 30 { wpn_l85_alt }
+Modern: 87% / 79% / 34.dmg / 730 RPM / 30 { wpn_l85_modern }
 
 24. HK416 [ 5.56x45 ] ( ACOG, Basrka ES AC10632, EOTech scopes, 5.56x45 Compatible Suppressor, M203 Grenade Launcher )
-Normal: 84% / 80% / 32.dmg / 850 RPM / 30
+Normal: 84% / 80% / 32.dmg / 850 RPM / 30 { wpn_hk416 }
 
 25. Galil AR [ 7.62x51 ] ( Galil 4x scope, PBS-1 suppressor )
-Normal: 87% / 70% / 50.dmg / 630 RPM / 25
-Custom: 87% / 70% / 50.dmg / 684 RPM / 25
-Modern: 88% / 70% / 50.dmg / 645 RPM / 25
+Normal: 87% / 70% / 50.dmg / 630 RPM / 25 { wpn_galil }
+Custom: 87% / 70% / 50.dmg / 684 RPM / 25 { wpn_galil_modern }
+Modern: 88% / 70% / 50.dmg / 645 RPM / 25 { wpn_galil_custom }
 
 26. G3SG1 [ 7.62x51 ] ( G3 scope )
-Normal: 82% / 71% / 50.dmg / 500 RPM / 20
+Normal: 82% / 71% / 50.dmg / 500 RPM / 20 { wpn_g3sg1 }
 
 27. G36K [ 5.56x45 ] ( G36 scope, 5.56x45 Compatible Suppressor )
-Normal: 83% / 71% / 33.dmg / 750 RPM / 30
+Normal: 83% / 71% / 33.dmg / 750 RPM / 30 { wpn_g36k }
 
 28. G36 [ 5.56x45 ] ( G36 scope, 5.56x45 Compatible Suppressor )
-Normal: 80% / 71% / 33.dmg / 750 RPM / 30
-Camo  : 84% / 71% / 33.dmg / 765 RPM / 30
+Normal: 80% / 71% / 33.dmg / 750 RPM / 30 { wpn_g36 / wpn_36_nimble }
+Camo  : 84% / 71% / 33.dmg / 765 RPM / 30 { wpn_g36_camo }
 
 29. G3A3 [ 7.62x51 ] ( ACOG, Basrka ES AC10632, EOTech scopes, 5.56x45 Compatible Suppressor )
-Normal: 80% / 71% / 38.dmg / 600 RPM / 20
+Normal: 80% / 71% / 38.dmg / 600 RPM / 20 { wpn_g3 }
 
 30. FN FNC [ 5.56x45 Compatible Suppressor ]
-Normal: 86% / 73% / 33.dmg / 650 RPM / 30
+Normal: 86% / 73% / 33.dmg / 650 RPM / 30 { wpn_fnc }
 
 31. FN FAL [ 7.62x51 ] ( ACOG, Basrka ES AC10632, C-more Railway Tactical, EOTech scopes, 5.56x45 Compatible Suppressor )
-Normal: 86% / 88% / 50.dmg / 675 RPM / 20
+Normal: 86% / 88% / 50.dmg / 675 RPM / 20 { wpn_fal }
 
 32. Steryl AUG A1 [ 5.56x45 ] ( 1.5x scope, 5.56x45 Compatible Suppressor )
-Normal: 80% / 88% / 34.dmg / 680 RPM / 30
-Custom: 83% / 88% / 34.dmg / 700 RPM / 30
-Modern: 81% / 88% / 34.dmg / 680 RPM / 30
-Camo  : 80% / 88% / 34.dmg / 775 RPM / 30
-Custom: 84% / 89% / 34.dmg / 710 RPM / 30
+Normal: 80% / 88% / 34.dmg / 680 RPM / 30 { wpn_aug ]
+Custom: 83% / 88% / 34.dmg / 700 RPM / 30 { wpn_aug_custom }
+Modern: 81% / 88% / 34.dmg / 680 RPM / 30 { wpn_aug_modern }
+Camo  : 80% / 88% / 34.dmg / 775 RPM / 30 { wpn_aug_freedom }
+Custom: 84% / 89% / 34.dmg / 710 RPM / 30 { wpn_aug_merc }
 
 33. AKS-74N [ EKP-8-02 Kobra, 1P29, PSO-1 scopes, TGP-A suppressor, GP-25 Grenade Launcher ]
-Normal: 77% / 77% / 33.dmg / 650 RPM / 30
-New   : 77% / 77% / 33.dmg / 655 RPM / 30
+Normal: 77% / 77% / 33.dmg / 650 RPM / 30 { wpn_aks74 }
+New   : 77% / 77% / 33.dmg / 655 RPM / 30 { wpn_aks74_new }
 
 34. AKS-47 [ 7.62x39 ] ( PBS-1 Suppressor, GP-25 Grenade Launcher )
-Normal: 67% / 72% / 38.dmg / 600 RPM / 30
+Normal: 67% / 72% / 38.dmg / 600 RPM / 30 { wpn_aks }
 
 35. AKMSN [ 7.62x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, PBS-1 Suppressor, GP-25 Grenade Launcher )
-Normal: 70% / 72% / 38.dmg / 600 RPM / 30
-Alt   : 69% / 72% / 38.dmg / 620 RPM / 30
+Normal: 70% / 72% / 38.dmg / 600 RPM / 30 { wpn_akms }
+Alt   : 69% / 72% / 38.dmg / 620 RPM / 30 { wpn_akms_alt }
 
 36. AKMN [ 7.62x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, PBS-1 Suppressor, GP-25 Grenade Launcher )
-Normal: 70% / 72% / 38.dmg / 600 RPM / 30
+Normal: 70% / 72% / 38.dmg / 600 RPM / 30 { wpn_akm }
 
 37. AK-74M [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, TGP-A Suppressor, GP-25 Grenade Launcher )
-Normal: 78% / 76% / 33.dmg / 600 RPM / 30
-Custom: 80% / 76% / 33.dmg / 650 RPM / 30
-Alt   : 78% / 76% / 33.dmg / 635 RPM / 30
-Camo  : 82% / 76% / 33.dmg / 650 RPM / 30
-D.Camo: 80% / 76% / 33.dmg / 600 RPM / 30
-PK-A  : 80% / 76% / 33.dmg / 650 RPM / 30
+Normal: 78% / 76% / 33.dmg / 600 RPM / 30 { wpn_ak74m }
+Custom: 80% / 76% / 33.dmg / 650 RPM / 30 { wpn_ak74m_custom }
+Alt   : 78% / 76% / 33.dmg / 635 RPM / 30 { wpn_ak74m_alt }
+Camo  : 82% / 76% / 33.dmg / 650 RPM / 30 { wpn_ak74m_camo }
+D.Camo: 80% / 76% / 33.dmg / 600 RPM / 30 { wpn_ak74m_duty }
+PK-A  : 80% / 76% / 33.dmg / 650 RPM / 30 { wpn_ak74m_pka }
 
 37.1 AK-74UNB [ 5.45x39 ] ( EKP-1S-03 Kobra sight, PBS-4 Suppressor )
-Normal: 64% / 83% / 26.dmg / 750 RPM / 45
+Normal: 64% / 83% / 26.dmg / 750 RPM / 45 { wpn_ak74m_snag }
 
 38. AK-74N [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, TGP-A Suppressor, GP-25 Grenade Launcher )
-Normal: 76% / 76% / 33.dmg / 650 RPM / 30
-Custom: 81% / 76% / 33.dmg / 640 RPM / 30
-Alt   : 80% / 76% / 33.dmg / 660 RPM / 30
-Modern: 77% / 76% / 33.dmg / 680 RPM / 30
+Normal: 76% / 76% / 33.dmg / 650 RPM / 30 { wpn_ak74 }
+Custom: 81% / 76% / 33.dmg / 640 RPM / 30 { wpn_ak74_custom }
+Alt   : 80% / 76% / 33.dmg / 660 RPM / 30 { wpn_ak74_alt }
+Modern: 77% / 76% / 33.dmg / 680 RPM / 30 { wpn_ak74_modern } 
 
 38.1 AK-74N "EOTech" [ 5.45x39 ] ( EOTech sight, TGP-A Suppressor, GP-25 Grenade Launcher )
-Normal: 74% / 76% / 33.dmg / 683 RPM / 45
+Normal: 74% / 76% / 33.dmg / 683 RPM / 45 { wpn_ak74_rpk }
 
 38.2 AK-74 [ 5.45x39 ] ( TGP-A Suppressor, GP-25 Grenade Launcher )
-Normal: 76% / 76% / 33.dmg / 650 RPM / 30
+Normal: 76% / 76% / 33.dmg / 650 RPM / 30 { wpn_ak74_old }
 
 39. AK-12 [ 5.45x39 ] ( ACOG, Barska ES AC10632, EOTech scopes, TGP-A Suppressor, GP-25 Grenade Launcher )
-Normal: 80% / 76% / 33.dmg / 650 RPM / 30
+Normal: 80% / 76% / 33.dmg / 650 RPM / 30 { wpn_ak12 }
 
 40. AK-105 [ 5.45x39 ] ( EKP 1S-03 Kobra, 1P29, PSO-1 scopes, TGP-A Suppressor )
-Normal: 66% / 80% / 32.dmg / 650 RPM / 30
+Normal: 66% / 80% / 32.dmg / 650 RPM / 30 { wpn_ak105 }
 
 41. AK-104 [ 7.62x39 ] ( EKP-8-02 Kobra, PSO-1 scopes, ATG Suppressor )
-Normal: 68% / 80% / 37.dmg / 600 RPM / 30
+Normal: 68% / 80% / 37.dmg / 600 RPM / 30 { wpn_ak104 }
 
 42. AK-103 [ 7.62x39 ] ( EKP-8-02 Kobra, PSO-1 scopes, ATG Suppressor, GP-25 Grenade Launcher )
-Normal: 73% / 72% / 38.dmg / 600 RPM / 30
-Camo  : 80% / 72% / 38.dmg / 630 RPM / 30
+Normal: 73% / 72% / 38.dmg / 600 RPM / 30 { wpn_ak103 }
+Camo  : 80% / 72% / 38.dmg / 630 RPM / 30 { wpn_ak103_camo }
 
 43. AK-102 [ 5.56x45 ] ( ACOG, Barska ES AC10632, EOTech, EKP-8-02 Kobra, PSO-1 scopes, ATG Suppressor )
-Normal: 67% / 80% / 32.dmg / 600 RPM / 30
+Normal: 67% / 80% / 32.dmg / 600 RPM / 30 { wpn_ak102 }
 
 44. AK-101 [ 5.56x45 ] ( ACOG, Barska ES AC10632, EOTech, EKP-8-02 Kobra, PSO-1 scopes, ATG Suppressor, GP-25 Grenade Launcher )
-Normal: 77% / 76% / 33.dmg / 600 RPM / 30
-Camo  : 82% / 76% / 33.dmg / 640 RPM / 30
+Normal: 77% / 76% / 33.dmg / 600 RPM / 30 { wpn_ak101 }
+Camo  : 82% / 76% / 33.dmg / 640 RPM / 30 { wpn_ak101_camo }
 
 45. AK-47 [ 7.62x39 ] ( PBS-1 Suppressor, GP-25 Grenade Launcher )
-Normal: 67% / 72% / 38.dmg / 600 RPM / 30
+Normal: 67% / 72% / 38.dmg / 600 RPM / 30 { wpn_ak }
 
 46. AEK [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, TGP-A Suppressor, GP-25 Grenade Launcher )
-Normal: 84% / 77% / 33.dmg / 900 RPM / 30
-973   : 84% / 75% / 38.dmg / 900 RPM / 30
-D.Camo: 86% / 77% / 33.dmg / 850 RPM / 30
+Normal: 84% / 77% / 33.dmg / 900 RPM / 30 { wpn_aek }
+973   : 84% / 75% / 38.dmg / 900 RPM / 30 { wpn_aek_duty }
+D.Camo: 86% / 77% / 33.dmg / 850 RPM / 30 { wpn_aek_camo }
 
 47. AN-94 [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, GP-25 Grenade Launcher )
-Normal: 82% / 71% / 33.dmg / 600 RPM / 30
-Camo  : 84% / 71% / 33.dmg / 620 RPM / 30
+Normal: 82% / 71% / 33.dmg / 600 RPM / 30 { wpn_abakan }
+Camo  : 84% / 71% / 33.dmg / 620 RPM / 30 { wpn_abakan_camp }
 
 48. 9A-91 [ 9x39 ] ( EKP-8-02 Kobra, 1P29, PSO, PSO-1M2-1 scopes, 9A-91/VSK Suppressor )
-Normal: 82% / 82% / 41.dmg / 700 RPM / 20
+Normal: 82% / 82% / 41.dmg / 700 RPM / 20 { wpn_9a91 }
 
 49. RPD [ 7.62x39 ] ( none )
-Normal: 74% / 72% / 39.dmg / 600 RPM / 100
+Normal: 74% / 72% / 39.dmg / 600 RPM / 100 { wpn_rpd }
 
 50. PKM [ 7.62x54 ] ( none )
-Normal: 77% / 70% / 51.dmg / 650 RPM / 100
-Zulu's: 77% / 70% / 51.dmg / 680 RPM / 100
+Normal: 77% / 70% / 51.dmg / 650 RPM / 100 { wpn_pkm }
+Zulu's: 77% / 70% / 51.dmg / 680 RPM / 100 { wpn_pkm_zulus }
 
 51. PKP Pecheneg [ 7.62x54 ] ( none )
-Normal: 77% / 70% / 51.dmg / 650 RPM / 100
+Normal: 77% / 70% / 51.dmg / 650 RPM / 100 { wpn_pkm_pkp }
 
 52. Mk 14 EBR [ 7.62x51 ] ( ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech scopes )
-Normal: 86% / 88% / 50.dmg / 725 RPM / 20
+Normal: 86% / 88% / 50.dmg / 725 RPM / 20 { wpn_mk14 }
