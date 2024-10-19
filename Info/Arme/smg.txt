@@ -6,42 +6,42 @@ Mag.size
 ___________________________________________________________________
 
 1. Skorpion vz.61 [ 9x19 ] ( 9x19 Compatible Suppressor ) 
-Normal: 57% / 84% / 30.dmg / 850 RPM / 20 ( wpn_vz61 )
-Alt   : 56% / 84% / 30.dmg / 865 RPM / 20 ( wpn_vz61_alt )
-Camo  : 62% / 84% / 30.dmg / 880 RPM / 20 ( wpn_vz61_camo )
-F.Camo: 59% / 84% / 30.dmg / 913 RPM / 20 ( wpn_vz61_freedom )
+Normal: 57% / 84% / 30.dmg / 850 RPM / 20 { wpn_vz61 }
+Alt   : 56% / 84% / 30.dmg / 865 RPM / 20 { wpn_vz61_alt }
+Camo  : 62% / 84% / 30.dmg / 880 RPM / 20 { wpn_vz61_camo }
+F.Camo: 59% / 84% / 30.dmg / 913 RPM / 20 { wpn_vz61_freedom }
 
 2. PP-19-01 [ 9x19 ] ( ACOG, Barska ES AC10632, EOTech scopes, PBS-1 Suppressor )
-Normal: 64% / 85% / 31.dmg / 700 RPM / 30 ( wpn_vityaz )
+Normal: 64% / 85% / 31.dmg / 700 RPM / 30 { wpn_vityaz }
 
 3. UPM45 [ .45 ] ( ACOG, Barska ES AC10632, EOTech scopes, GemTech Suppressor )
-Normal: 64% / 84% / 37.dmg / 600 RPM / 25 ( wpn_ump45 )
-Custom: 68% / 84% / 37.dmg / 640 RPM / 25 ( wpn_ump45_custom )
+Normal: 64% / 84% / 37.dmg / 600 RPM / 25 { wpn_ump45 }
+Custom: 68% / 84% / 37.dmg / 640 RPM / 25 { wpn_ump45_custom }
 
 4. MP7 [ 9x19 ] ( 9x19 Compatible Suppresor, ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech scopes )
-Normal: 84% / 88% / 31.dmg / 950 RPM / 40 ( wpn_mp7 )
+Normal: 84% / 88% / 31.dmg / 950 RPM / 40 { wpn_mp7 }
 
 5. FN P90 [ 5.7x28 ] ( ACOG, Barska ES AC10632, EOTech scopes, 5.7x28 compatible suppressor )
-Normal: 76% / 84% / 30.dmg / 900 RPM / 50 ( wpn_p90 )
+Normal: 76% / 84% / 30.dmg / 900 RPM / 50 { wpn_p90 }
 
 6. MP5SD6 [ 9x19 ] ( ACOG, Barska ES AC10632, EOTech scopes, special MP5SD suppressor )
-Normal: 66% / 84% / 31.dmg / 800 RPM / 30 ( wpn_mp5sd )
-Custom: 69% / 84% / 31.dmg / 835 RPM / 30 ( wpn_mp5sd_custom )
-New   : 67% / 84% / 31.dmg / 820 RPM / 30 ( wpn_mp5sd_new )
+Normal: 66% / 84% / 31.dmg / 800 RPM / 30 { wpn_mp5sd }
+Custom: 69% / 84% / 31.dmg / 835 RPM / 30 { wpn_mp5sd_custom }
+New   : 67% / 84% / 31.dmg / 820 RPM / 30 { wpn_mp5sd_new }
 
 7. PP-2000 [ 9x19 ] ( ACOG, Barska ES AC10632, EOTech scopes, 9x19 compatible suppresor )
-Normal: 64% / 85% / 31.dmg / 750 RPM / 30 ( wpn_pp2000 )
+Normal: 64% / 85% / 31.dmg / 750 RPM / 30 { wpn_pp2000 }
 
 8. OTs-02 Kiparis [ 9x18 ] ( 9x19 compatible suppresor )
-Normal: 60% / 84% / 30.dmg / 850 RPM / 30 ( wpn_kiparis )
+Normal: 60% / 84% / 30.dmg / 850 RPM / 30 { wpn_kiparis }
 
 9. MP5A3 [ 9x19 ] ( ACOG, Barska ES AC10632 scopes, 9x19 Compatible Suppressor )
-Normal: 62% / 84% / 31.dmg / 800 RPM / 30 ( wpn_mp5 )
-Custom: 71% / 84% / 31.dmg / 830 RPM / 30 ( wpn_mp5_custom )
-Alt   : 70% / 84% / 31.dmg / 813 RPM / 30 ( wpn_mp5_alt )
+Normal: 62% / 84% / 31.dmg / 800 RPM / 30 { wpn_mp5 }
+Custom: 71% / 84% / 31.dmg / 830 RPM / 30 { wpn_mp5_custom }
+Alt   : 70% / 84% / 31.dmg / 813 RPM / 30 { wpn_mp5_alt }
 
 9.1 MP5A3 "Frasier" [ .45 ] ( ACOG, Barska ES AC10632 scopes, GemTech Suppressor )
-Normal: 70% / 84% / 37.dmg / 730 RPM / 30 ( wpn_mp5_nimble )
+Normal: 70% / 84% / 37.dmg / 730 RPM / 30 { wpn_mp5_nimble }
 
 10. PP-19 Bizon [ 9x18 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, PBS-1 suppressor )
-Normal: 62% / 86% / 30.dmg / 680 RPM / 64 ( wpn_bizon )
+Normal: 62% / 86% / 30.dmg / 680 RPM / 64 { wpn_bizon }
