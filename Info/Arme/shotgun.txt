@@ -6,69 +6,69 @@ Mag.size
 ___________________________________________________________________
 
 1. TOZ-34 [ 12x70 ] ( none )
-Normal: 52% / 55% / 180.dmg / 1200 RPM / 2 ( wpn_toz34_obrez )
-Custom: 54% / 55% / 180.dmg / 1200 RPM / 2 ( wpn_toz34_obrez_custom )
-Deco  : 57% / 55% / 180.dmg / 1100 RPM / 2 ( wpn_toz34_obrez_decor )
+Normal: 52% / 55% / 180.dmg / 1200 RPM / 2 { wpn_toz34_obrez }
+Custom: 54% / 55% / 180.dmg / 1200 RPM / 2 { wpn_toz34_obrez_custom }
+Deco  : 57% / 55% / 180.dmg / 1100 RPM / 2 { wpn_toz34_obrez_decor }
 
 2. TOZ-66 [ 12x70 ] ( none )
-Normal: 43% / 67% / 180.dmg / 1000 RPM / 2 ( wpn_bm16 )
-Alt   : 46% / 67% / 180.dmg / 1000 RPM / 2 ( wpn_bm16_alt )
+Normal: 43% / 67% / 180.dmg / 1000 RPM / 2 { wpn_bm16 }
+Alt   : 46% / 67% / 180.dmg / 1000 RPM / 2 { wpn_bm16_alt }
 
 3. TOZ-194 [ 12x70 ] ( none ) 
-Normal: 62% / 63% / 189.dmg / 50 RPM / 7 ( wpn_wincheaster1300_trapper )
+Normal: 62% / 63% / 189.dmg / 50 RPM / 7 { wpn_wincheaster1300_trapper }
 
 4. TOZ-34 [ 12x70 ] ( none ) 
-Normal: 76% / 55% / 189.dmg / 1000 RPM / 2 ( wpn_toz34 )
-Custom: 71% / 55% / 189.dmg / 1200 RPM / 2 ( wpn_toz34_custom )
-Deco  : 73% / 55% / 189.dmg / 1100 RPM / 2 ( wpn_toz34_decor )
-"Bull": 80% / 55% / 166.dmg / 200 RPM / 2 ( wpn_toz34_bull )
+Normal: 76% / 55% / 189.dmg / 1000 RPM / 2 { wpn_toz34 }
+Custom: 71% / 55% / 189.dmg / 1200 RPM / 2 { wpn_toz34_custom }
+Deco  : 73% / 55% / 189.dmg / 1100 RPM / 2 { wpn_toz34_decor }
+"Bull": 80% / 55% / 166.dmg / 200 RPM / 2 { wpn_toz34_bull }
 
 5. MP-133 [ 12x70 ] ( none )
-Normal: 69% / 59% / 189.dmg / 6 ( wpn_mp133 )
+Normal: 69% / 59% / 189.dmg / 6 { wpn_mp133 }
 
 6. Fort-500 [ 12x70 ] ( none )
-Normal: 64% / 88% / 189.dmg / 6 ( wpn_fort500 )
+Normal: 64% / 88% / 189.dmg / 6 { wpn_fort500 }
 
 7. TOZ-66 [ 12x70 ] ( none )
-Normal: 76% / 57% / 180.dmg / 1000 RPM / 2 ( wpn_bm16_full )
-Alt   : 73% / 57% / 180.dmg / 1000 RPM / 2 ( wpn_bm16_full_alt )
+Normal: 76% / 57% / 180.dmg / 1000 RPM / 2 { wpn_bm16_full }
+Alt   : 73% / 57% / 180.dmg / 1000 RPM / 2 { wpn_bm16_full_alt }
 
 8. Vepr-12 "Hammer" [ 12x70 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes; PBS-1 Suppressor)
-Normal: 68% / 77% / 180.dmg / 240 RPM / 12 ( wpn_vepr )
+Normal: 68% / 77% / 180.dmg / 240 RPM / 12 { wpn_vepr }
 
 9. USAS-12 [ 12x70 ] ( none )
-Normal: 63% / 59% / 180.dmg / 360 RPM / 20 ( wpn_usas12 )
+Normal: 63% / 59% / 180.dmg / 360 RPM / 20 { wpn_usas12 }
 
 10. TOZ-34 "Bizon" [ 12x70 ] ( Leupold Mark 4 scope )
-Normal: 76% / 55% / 189.dmg / 800 RPM / 2 ( wpn_toz34_mark4 )
+Normal: 76% / 55% / 189.dmg / 800 RPM / 2 { wpn_toz34_mark4 }
 
 11. SPAS-12 [ 12x70 ] ( none )
-Normal: 68% / 59% / 189.dmg / 115 RPM / 8 ( wpn_spas12 )
-Custom: 70% / 59% / 189.dmg / 130 RPM / 8 ( wpn_spas12_custom )
-Modern: 71% / 59% / 198.dmg / 115 RPM / 8 ( wpn_spas12_nimble )
+Normal: 68% / 59% / 189.dmg / 115 RPM / 8 { wpn_spas12 }
+Custom: 70% / 59% / 189.dmg / 130 RPM / 8 { wpn_spas12_custom }
+Modern: 71% / 59% / 198.dmg / 115 RPM / 8 { wpn_spas12_nimble }
 
 12. Remington 870 [ 12x70 ] ( Barska ES AC10632, C-more Railway Tactical, EOTech scopes )
-Normal: 69% / 88% / 189.dmg / 45 RPM / 8 ( wpn_remington870 )
+Normal: 69% / 88% / 189.dmg / 45 RPM / 8 { wpn_remington870 }
 
 13. Saiga-12S [ 12x70 ] ( EKP-8-02 Kobra, PSO-1 scopes, PBS-1 )
-Normal: 69% / 77% / 180.dmg / 220 RPM / 10 ( wpn_saiga12s )
+Normal: 69% / 77% / 180.dmg / 220 RPM / 10 { wpn_saiga12s }
 
 14. Armsel Protecta [ 12x70 ] ( none )
-Normal: 64% / 63% / 180.dmg / 155 RPM / 12 ( wpn_protecta )
-Custom: 57% / 63% / 180.dmg / 191 RPM / 12 ( wpn_protecta_nimble )
-Camo  : 60% / 63% / 180.dmg / 155 RPM / 12 ( wpn_protecta_camo )
-Custom: 58% / 63% / 180.dmg / 168 RPM / 12 ( wpn_protecta_custom )
+Normal: 64% / 63% / 180.dmg / 155 RPM / 12 { wpn_protecta }
+Custom: 57% / 63% / 180.dmg / 191 RPM / 12 { wpn_protecta_nimble }
+Camo  : 60% / 63% / 180.dmg / 155 RPM / 12 { wpn_protecta_camo }
+Custom: 58% / 63% / 180.dmg / 168 RPM / 12 { wpn_protecta_custom }
 
 14.1. Armsel Protecta [ 12x70 ] ( "Aimpoint" sight )
-Modern: 64% / 63% / 180.dmg / 150 RPM / 12 ( wpn_protecta_aim )
+Modern: 64% / 63% / 180.dmg / 150 RPM / 12 { wpn_protecta_aim }
 
 15. TOZ-194 [ 12x70 ] ( none )
-Normal: 62% / 63% / 189.dmg / 50 RPM / 7 ( wpn_wincheaster1300 )
+Normal: 62% / 63% / 189.dmg / 50 RPM / 7 { wpn_wincheaster1300 }
 
 16. Mossberg 590A1 [ 12x70 ] ( none )
-Normal: 66% / 63% / 189.dmg / 60 RPM / 8 ( wpn_mossberg590 )
+Normal: 66% / 63% / 189.dmg / 60 RPM / 8 { wpn_mossberg590 }
 
 17. MP-153 [ 12x70 ] ( none )
-Normal: 66% / 59% / 189.dmg / 200 RPM / 8 ( wpn_mp153 )
+Normal: 66% / 59% / 189.dmg / 200 RPM / 8 { wpn_mp153 }
 
 
