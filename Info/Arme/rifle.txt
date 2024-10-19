@@ -6,9 +6,10 @@ Mag.size
 ___________________________________________________________________
 
 1. SR-3M Vikhr [ 9x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1, PSO-1M2-1 scopes, SR-3M Suppressor )
-Normal: 78% / 82% / 41.dmg / 900 RPM / 30
+Normal: 78% / 82% / 41.dmg / 900 RPM / 30 { wpn_vihr }
 
-2. SIG SG552 Commando [ 5.56x45 ] ( ACOG, Barska ES AC10632, EOTech scopes ,5.56x45 Compatible Suppressor )
+2. SIG SG552 Commando [ 5.56x45 ] ( ACOG, Barska ES AC10632, EOTech scopes  ,5.56x45 Compatible Suppressor )
+Normal: 76% / 83% / 32.dmg / 780 RPM / 30 { wpn_sig552 }
 
 3. OTs-14 Groza [ 9x39 ] ( PO 4x34 scope, GP-25 grenade launcher )
 Normal: 75% / 82% / 41.dmg / 700 RPM / 20
@@ -212,3 +213,25 @@ Normal: 67% / 72% / 38.dmg / 600 RPM / 30
 
 46. AEK [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, TGP-A Suppressor, GP-25 Grenade Launcher )
 Normal: 84% / 77% / 33.dmg / 900 RPM / 30
+973   : 84% / 75% / 38.dmg / 900 RPM / 30
+D.Camo: 86% / 77% / 33.dmg / 850 RPM / 30
+
+47. AN-94 [ 5.45x39 ] ( EKP-8-02 Kobra, 1P29, PSO-1 scopes, GP-25 Grenade Launcher )
+Normal: 82% / 71% / 33.dmg / 600 RPM / 30
+Camo  : 84% / 71% / 33.dmg / 620 RPM / 30
+
+48. 9A-91 [ 9x39 ] ( EKP-8-02 Kobra, 1P29, PSO, PSO-1M2-1 scopes, 9A-91/VSK Suppressor )
+Normal: 82% / 82% / 41.dmg / 700 RPM / 20
+
+49. RPD [ 7.62x39 ] ( none )
+Normal: 74% / 72% / 39.dmg / 600 RPM / 100
+
+50. PKM [ 7.62x54 ] ( none )
+Normal: 77% / 70% / 51.dmg / 650 RPM / 100
+Zulu's: 77% / 70% / 51.dmg / 680 RPM / 100
+
+51. PKP Pecheneg [ 7.62x54 ] ( none )
+Normal: 77% / 70% / 51.dmg / 650 RPM / 100
+
+52. Mk 14 EBR [ 7.62x51 ] ( ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech scopes )
+Normal: 86% / 88% / 50.dmg / 725 RPM / 20
