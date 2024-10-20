@@ -1,8 +1,8 @@
-SVT-40 [ 7.62x54 ] ( PU Special Scope )
+1. SVT-40 [ 7.62x54 ] ( PU Special Scope )
 Normal: 93% / 65% / 51.dmg / 150 RPM / 10
 Modern: 93% / 65% / 51.dmg / 135 RPM / 10
 
-SKS [ 7.62x39 ] ( PU scope )
+2. SKS [ 7.62x39 ] ( PU scope )
 Normal: 86% / 65% / 38.dmg / 200 RPM / 10
 
-Mosin Nagant
+3. Mosin Nagant
