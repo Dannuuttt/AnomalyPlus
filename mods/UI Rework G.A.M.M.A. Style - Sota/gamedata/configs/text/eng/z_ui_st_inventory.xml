@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	
+<!-- Player states -->
+	<string id="st_ui_bleeding_sensor">
+		<text>BLEEDING</text>
+	</string>
+	<string id="st_ui_main_sensor">
+		<text>RADIATION</text>
+	</string>
+	<string id="st_ui_health_sensor_inv">
+		<text>HEALTH</text>
+	</string>
+	<string id="ui_inv_radiation_protection">
+		<text>RADIATION RESISTANCE</text>
+	</string>
+	<string id="ui_inv_chemical_burn_protection">
+		<text>CHEMICAL RESISTANCE</text>
+	</string>
+	<string id="ui_inv_shock_protection">
+		<text>ELECTRICAL RESISTANCE</text>
+	</string>
+	<string id="ui_inv_burn_protection">
+		<text>THERMAL RESISTANCE</text>
+	</string>
+	<string id="ui_inv_telepatic_protection">
+		<text>PSYCHIC RESISTANCE</text>
+	</string>
+	<string id="ui_inv_wound_protection">
+		<text>RUPTURE RESISTANCE</text>
+	</string>
+	<string id="ui_inv_fire_wound_protection">
+		<text>BALLISTIC RESISTANCE</text>
+	</string>
+	<string id="ui_inv_power_restore">
+		<text>STAMINA RECOVERY</text>
+	</string>
+	
+</string_table>

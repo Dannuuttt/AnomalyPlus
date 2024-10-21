@@ -1,0 +1,26 @@
+function on_game_start()
+    RegisterScriptCallback("on_specific_character_dialog_list", function(character_id, dialog_list)
+
+        --character_id is the id attribute of <specific_character> tag (ie. "sim_default_csky_0_default_0")
+        if character_id == "esc_main_base_trader_mlr" then
+            local res = dialog_list:add("facmedkits_loris_medkitinfo")
+			local res = dialog_list:add("facmedkits_loris_backfromds")
+        end
+		if character_id == "esc_2_12_stalker_trader" then
+            local res = dialog_list:add("facmedkits_sidorovich_medkitsnitch")
+        end
+		
+		if character_id == "mar_smart_terrain_base_stalker_leader_marsh" then
+            local res = dialog_list:add("facmedkits_cold_oscilotask")
+			local res = dialog_list:add("facmedkits_cold_oscilotask_done")
+        end
+		if character_id == "yan_stalker_sakharov" then
+            local res = dialog_list:add("facmedkits_sakharov_oscilotask")
+        end
+		
+		if character_id == "mar_base_stalker_tech" then
+            local res = dialog_list:add("facmedkits_novikov_chiptask")
+			local res = dialog_list:add("facmedkits_novikov_chiptask_done")
+        end
+    end)
+end

@@ -1,0 +1,288 @@
+--[[  
+	MCM script made for EFP UI
+	Author: HarukaSai
+
+	08/04/2022
+]]
+
+--[[
+	Edit by Sota for UI Rework
+	
+	24/09/2024
+]]
+
+-- check if IWR patch is installed
+local is_z_iwr = z_utils_ui_demonized_inventory_weights and true or false
+
+local mcm_id = "efp_ui"
+local string_format = string.format
+
+local faction_color_defs = {-- Edited by Sota - stupid fix for incorrect order of adding to settings (add i = _)
+	["stalker"]	 = { a= 255 , r= 228 , g= 185 , b= 69  , i= 1  },
+	["bandit"]	 = { a= 255 , r= 217 , g= 217 , b= 217 , i= 2  },
+	["csky"]	 = { a= 255 , r= 0   , g= 182 , b= 222 , i= 3  },
+	["dolg"]	 = { a= 255 , r= 193 , g= 32  , b= 38  , i= 4  },
+	["freedom"]	 = { a= 255 , r= 79  , g= 162 , b= 69  , i= 5  },
+	["killer"]	 = { a= 255 , r= 3   , g= 94  , b= 168 , i= 6  },
+	["army"]	 = { a= 255 , r= 184 , g= 153 , b= 84  , i= 7  },
+	["ecolog"]	 = { a= 255 , r= 67  , g= 134 , b= 120 , i= 8  },
+	["monolith"] = { a= 255 , r= 81  , g= 231 , b= 241 , i= 9  },
+	["renegade"] = { a= 255 , r= 30  , g= 123 , b= 48  , i= 10 },
+	["greh"]	 = { a= 255 , r= 255 , g= 93  , b= 0   , i= 11 },
+	["isg"]		 = { a= 255 , r= 145 , g= 5   , b= 0   , i= 12 }
+}
+
+local faction_color_text_defs = {
+	["stalker"]		= { a= 255 , r= 255 , g= 232 , b= 208 },
+	["bandit"]		= { a= 255 , r= 255 , g= 232 , b= 208 },
+	["csky"]		= { a= 255 , r= 255 , g= 232 , b= 208 },
+	["dolg"]		= { a= 255 , r= 255 , g= 232 , b= 208 },
+	["freedom"]		= { a= 255 , r= 255 , g= 232 , b= 208 },
+	["killer"]		= { a= 255 , r= 255 , g= 232 , b= 208 },
+	["army"]		= { a= 255 , r= 255 , g= 232 , b= 208 },
+	["ecolog"]		= { a= 255 , r= 255 , g= 232 , b= 208 },
+	["monolith"]	= { a= 255 , r= 255 , g= 232 , b= 208 },
+	["renegade"]	= { a= 255 , r= 255 , g= 232 , b= 208 },
+	["greh"]		= { a= 255 , r= 255 , g= 232 , b= 208 },
+	["isg"]			= { a= 255 , r= 255 , g= 232 , b= 208 }
+}
+
+local stat_defs = {-- Edited by Sota - stupid fix for incorrect order of adding to settings (add i = _)
+	["health"]		= { a= 255 , r= 255 , g= 0   , b= 0   , i= 1  },
+	["radia"]		= { a= 255 , r= 253 , g= 208 , b= 23  , i= 2  },
+	["acid"]		= { a= 255 , r= 0   , g= 255 , b= 0   , i= 3  },
+	["shock"]		= { a= 255 , r= 255 , g= 255 , b= 0   , i= 4  },
+	["fire"]		= { a= 255 , r= 255 , g= 0   , b= 128 , i= 5  },
+	["psi"]			= { a= 255 , r= 0   , g= 255 , b= 255 , i= 6  },
+	["wound"]		= { a= 255 , r= 255 , g= 255 , b= 255 , i= 7  },
+	["fire_wound"]	= { a= 255 , r= 255 , g= 128 , b= 0   , i= 8  },
+	["power"]		= { a= 255 , r= 128 , g= 255 , b= 255 , i= 9  },
+	["hunger"]		= { a= 255 , r= 165 , g= 137 , b= 193 , i= 10 },
+	["thirst"]		= { a= 255 , r= 154 , g= 206 , b= 223 , i= 11 },
+	["sleep"]		= { a= 255 , r= 253 , g= 222 , b= 238 , i= 12 }
+}
+
+local slot_cell_defs = { -- base slot = {UI slots to fit in}
+	["belt"]		= { string= "belt"       , a= 255 , r= 255 , g= 0   , b= 147 },
+	["quick"]		= { string= "quick"      , a= 255 , r= 21  , g= 236 , b= 135 },
+	[1]				= { string= "knife"      , a= 255 , r= 185 , g= 70  , b= 255 },	-- Knife
+	[2]				= { string= "pistol"     , a= 255 , r= 255 , g= 216 , b= 0   },	-- Pistol
+	[3]				= { string= "rifle"      , a= 255 , r= 255 , g= 126 , b= 70  },	-- Rifle
+	[4]				= { string= "grenade"    , a= 255 , r= 255 , g= 0   , b= 0   },	-- Grenade
+	[5]				= { string= "binoculars" , a= 255 , r= 75  , g= 181 , b= 255 },	-- Binoculars
+	[6]				= { string= "bolt"       , a= 255 , r= 234 , g= 70  , b= 150 },	-- Bolt
+	[7]				= { string= "outfit"     , a= 255 , r= 70  , g= 103 , b= 234 },	-- Outfit
+	[8]				= { string= "pda"        , a= 255 , r= 0   , g= 193 , b= 255 },	-- PDA
+	[9]				= { string= "detector"   , a= 255 , r= 0   , g= 108 , b= 255 },	-- Detector
+	[10]			= { string= "torch"      , a= 255 , r= 59  , g= 244 , b= 146 },	-- Torch
+	[12]			= { string= "helmet"     , a= 255 , r= 122 , g= 0   , b= 244 },	-- Helmet
+	[13]			= { string= "backpack"   , a= 255 , r= 236 , g= 197 , b= 32  }	-- Backpack
+}
+
+local faction_banner_defs		= { a= 255, r= 39,  g= 39,  b= 160 }
+local faction_banner_text_defs	= { a= 255, r= 255, g= 232, b= 208 }
+
+function get_faction_color_template(faction)
+	local template = {
+		id = faction, sh = true, gr = {
+			{ id= "title"					, type= "slide", link= "ui_options_slider_warfare", text= "ui_mcm_menu_" .. mcm_id .. "_title", size= {512,50}, spacing= 20 },
+			{ id= "desc_faction_color"		, type= "desc", text= "ui_mcm_desc_faction_banner_color"},
+			{ id= "color_red"				, hint= mcm_id .. "_red"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_color_defs[faction].r },
+			{ id= "color_green"				, hint= mcm_id .. "_green"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_color_defs[faction].g },
+			{ id= "color_blue"				, hint= mcm_id .. "_blue"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_color_defs[faction].b },
+			{ id= "color_alpha"				, hint= mcm_id .. "_alpha"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_color_defs[faction].a },
+			{ id= "divider"					, type= "line" },
+			{ id= "desc_faction_text_color"	, type= "desc", text= "ui_mcm_desc_faction_text_color" },
+			{ id= "color_red_text"			, hint= mcm_id .. "_red"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_color_text_defs[faction].r },
+			{ id= "color_green_text"		, hint= mcm_id .. "_green"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_color_text_defs[faction].g },
+			{ id= "color_blue_text" 		, hint= mcm_id .. "_blue"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_color_text_defs[faction].b },
+			{ id= "color_alpha_text"		, hint= mcm_id .. "_alpha"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_color_text_defs[faction].a }
+		}
+	}
+	return template
+end
+
+function get_stats_color_template(stat)
+	local template = {
+		{ id= "desc"		.. stat, type= "desc", text= "ui_mcm_desc_stat_" .. stat },
+		{ id= "color_red"	.. stat, hint= mcm_id .. "_red"		, type= "track", val= 2, min= 0, max= 255, step= 1, def= stat_defs[stat].r },
+		{ id= "color_green"	.. stat, hint= mcm_id .. "_green"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= stat_defs[stat].g },
+		{ id= "color_blue"	.. stat, hint= mcm_id .. "_blue"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= stat_defs[stat].b },
+		{ id= "color_alpha"	.. stat, hint= mcm_id .. "_alpha"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= stat_defs[stat].a },
+		{ id= "divider", type= "line" }
+	}
+	return template
+end
+
+module_settings = {}
+
+function add_module_settings(t)
+	module_settings[#module_settings + 1] = t
+end
+
+function get_module_settings(path)
+	return ui_mcm.get(string_format("%s/modules_settings/%s", mcm_id, path))
+end
+
+function get_slot_cell_template(slot)
+	local template = {
+		{ id= "desc" .. slot_cell_defs[slot].string, type= "desc", text= "ui_mcm_desc_cell_" .. slot_cell_defs[slot].string },
+		{ id= "color_red"	.. slot, hint= mcm_id .. "_red"		, type= "track", val= 2, min= 0, max= 255, step= 1, def= slot_cell_defs[slot].r },
+		{ id= "color_green"	.. slot, hint= mcm_id .. "_green"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= slot_cell_defs[slot].g },
+		{ id= "color_blue"	.. slot, hint= mcm_id .. "_blue"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= slot_cell_defs[slot].b },
+		{ id= "color_alpha"	.. slot, hint= mcm_id .. "_alpha"	, type= "track", val= 2, min= 0, max= 255, step= 1, def= slot_cell_defs[slot].a },
+		{ id= "divider", type= "line" }
+	}
+	return template
+end
+
+function on_mcm_load()
+	local options = { id= mcm_id, gr= {{ id= "faction_settings", gr= {} }} }
+	options.gr[1] = { id= "main_settings", sh= true, gr= {
+		{ id= "title", type= "slide", link= "ui_options_slider_warfare", text= "ui_mcm_menu_" .. mcm_id.. "_title", size= {512,50}, spacing= 20 },
+		-- Edited by Sota - change check to list
+--		{ id= "use_alt_ranks"		, hint= mcm_id .. "_use_alt_ranks"		, type= "check"	, val= 1, def= false },
+		{ id= "use_alt_ranks"		, hint= mcm_id .. "_use_alt_ranks"		, type= "list"	, val= 2, content= { { 1, "ranks"		}, { 2, "ranks_mui"		}, { 3, "ranks_svui"	},	{ 4, "ranks_svui_alt"	}	}	, def= 1	},
+		-- Added by Sota - new MCM settings for UI Rework
+		{ id= "use_alt_factions"	, hint= mcm_id .. "_use_alt_factions"	, type= "list"	, val= 2, content= { { 1, "factions"	}, { 2, "factions_alt"	}, { 3, "factions_alt2"	}								}	, def= 1	},
+		{ id= "use_alt_inv"			, hint= mcm_id .. "_use_alt_inv"		, type= "list"	, val= 2, content= { { 1, "inv"			}, { 2, "inv_alt"		}, { 3, "inv_alt_bg"	}								}	, def= 1	},
+		{ id= "use_alt_grid"		, hint= mcm_id .. "_use_alt_grid"		, type= "list"	, val= 2, content= { { 1, "no_grid"		}, { 2, "grid"			}, { 3, "grid_alt"		}								}	, def= 1	},
+		{ id= "use_alt_blockers"	, hint= mcm_id .. "_use_alt_blockers"	, type= "list"	, val= 2, content= { { 1, "blck_lock"	}, { 2, "blck_cross"	}, { 3, "blck_dash"		}								}	, def= 1	},
+		{ id= "use_alt_upgr"		, hint= mcm_id .. "_use_alt_upgr"		, type= "list"	, val= 2, content= { { 1, "upgr"		}, { 2, "upgr_gear"		}, { 3, "upgr_arrow"	},	{ 4, "upgr_wrench"		}	}	, def= 1	},
+		{ id= "use_alt_equ_bars"	, hint= mcm_id .. "_use_alt_equ_bars"	, type= "list"	, val= 2, content= { { 1, "bars"		}, { 2, "bars_flat"		}, { 3, "bars_fade"		}								}	, def= 1	},
+		{ id= "use_alt_inv_bars"	, hint= mcm_id .. "_use_alt_inv_bars"	, type= "list"	, val= 2, content= { { 1, "bars"		}, { 2, "bars_flat"		}, { 3, "bars_fade"		}								}	, def= 1	},
+		{ id= "use_alt_stats_bars"	, hint= mcm_id .. "_use_alt_stats_bars"	, type= "list"	, val= 2, content= { { 1, "bars"		}, { 2, "bars_flat"		}, { 3, "bars_fade"		}								}	, def= 1	},
+		{ id= "divider", type= "line" },
+		{ id= "use_inv_labels"		, hint= mcm_id .. "_use_inv_labels"		, type= "check"	, val= 1, def= true		},
+		{ id= "use_small_icons"		, hint= mcm_id .. "_use_small_icons"	, type= "check"	, val= 1, def= false	},
+		{ id= "use_inv_vert"		, hint= mcm_id .. "_use_inv_vert"		, type= "check"	, val= 1, def= false	},
+		{ id= "divider", type= "line" },
+		{ id= "inv_hint_alpha"		, hint= mcm_id .. "_inv_hint_alpha"		, type= "track"	, val= 2, min= 0, max= 255, step= 5, def= 255 },
+		{ id= "divider", type= "line" },
+	}}
+	-- if HTS Bars patch is installed need to create mcm setting
+	if hts_inventory_bars then
+		options.gr[1].gr[#options.gr[1].gr + 1] = { id= "use_alt_hts" , hint= mcm_id .. "_use_alt_hts" , type= "list" , val= 2, content= { { 1, "hts" }, { 2, "htsp" }, { 3, "hts_alt" } } , def= 1 }
+	end
+	-- if IWR patch is installed need to create mcm setting
+	if is_z_iwr then
+		options.gr[1].gr[#options.gr[1].gr + 1] = { id= "use_inv_weights" , hint= mcm_id .. "_use_inv_weights" , type= "check"	, val= 1 , def= true }
+	end
+	options.gr[2] = { id= "faction_settings", gr= {} }
+	options.gr[3] = {
+		id= "base_settings", gr= {
+			{ id= "slots", sh= true, gr= {
+				{ id= "title", type= "slide", link= "ui_options_slider_warfare", text= "ui_mcm_menu_" .. mcm_id.. "_title", size= {512,50}, spacing= 20 },
+				{ id= "use_faction", hint= mcm_id .. "_use_faction", val= 1, type= "check", def= true },
+				{ id= "divider", type= "line" }
+			}},
+			{ id= "stats", sh= true, gr= {
+				{ id= "title", type= "slide", link= "ui_options_slider_warfare", text= "ui_mcm_menu_" .. mcm_id.. "_title", size= {512,50}, spacing= 20 },
+				{ id= "use_faction", hint= mcm_id .. "_use_faction", val= 1, type= "check", def= true },
+				{ id= "divider", type= "line" }
+			}},
+			{ id= "faction_banner", sh= true, gr= {
+				{ id= "title", type= "slide", link= "ui_options_slider_warfare", text= "ui_mcm_menu_" .. mcm_id.. "_title", size= {512,50}, spacing= 20 },
+				{ id= "desc_faction_color", type= "desc", text= "ui_mcm_desc_faction_banner_color" },
+				{ id= "use_faction"			, hint= mcm_id .. "_use_faction", type= "check", val= 1, def= true },
+				{ id= "color_red"			, hint= mcm_id .. "_red"		, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_banner_defs.r },
+				{ id= "color_green"			, hint= mcm_id .. "_green"		, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_banner_defs.g },
+				{ id= "color_blue"			, hint= mcm_id .. "_blue"		, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_banner_defs.b },
+				{ id= "color_alpha"			, hint= mcm_id .. "_alpha"		, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_banner_defs.a },
+				{ id= "divider", type= "line" },
+				{ id= "desc_faction_text_color", type= "desc", text= "ui_mcm_desc_faction_text_color" },
+				{ id= "use_faction_text"	, hint= mcm_id .. "_use_faction", type= "check", val= 1, def= true },
+				{ id= "color_red_text"		, hint= mcm_id .. "_red"		, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_banner_text_defs.r },
+				{ id= "color_green_text"	, hint= mcm_id .. "_green"		, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_banner_text_defs.g },
+				{ id= "color_blue_text"		, hint= mcm_id .. "_blue"		, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_banner_text_defs.b },
+				{ id= "color_alpha_text"	, hint= mcm_id .. "_alpha"		, type= "track", val= 2, min= 0, max= 255, step= 1, def= faction_banner_text_defs.a }
+			}}
+		}
+	}
+	
+	if not is_empty(module_settings) then -- add modules if there's any
+		options.gr[4] = { id= "modules_settings", gr= module_settings }
+	end
+	-- Edited by Sota - stupid fix for incorrect order of adding to settings
+--	for faction, _ in pairs(faction_color_defs) do
+	for faction, v in pairs(faction_color_defs) do
+--		options.gr[2].gr[№options.gr[2].gr + 1] = get_faction_color_template(faction)
+		options.gr[2].gr[v.i] = get_faction_color_template(faction)
+	end
+	for slot, _ in pairs(slot_cell_defs) do
+		local slot_template = get_slot_cell_template(slot)
+		for key = 1, #slot_template do
+			options.gr[3].gr[1].gr[#options.gr[3].gr[1].gr + 1] = slot_template[key]
+		end
+	end
+	-- Edited by Sota - stupid fix for incorrect order of adding to settings
+	local frst_idx_stat = #options.gr[3].gr[2].gr
+--	for stat, _ in pairs(stat_defs) do
+	for stat, v in pairs(stat_defs) do
+		local stat_template = get_stats_color_template(stat)
+		for key = 1, #stat_template do
+			local idx = frst_idx_stat + v.i + (#stat_template - 1) * (v.i - 1) + key - 1
+--			options.gr[3].gr[2].gr[№options.gr[3].gr[2].g] = stat_template[key]
+			options.gr[3].gr[2].gr[idx] = stat_template[key]
+		end
+	end
+	return options
+end
+
+function on_option_change()
+	if not ui_mcm then return end
+	for faction, _ in pairs(faction_color_defs) do
+		ui_inventory.faction_color[faction]			= get_colors_for_path(string_format( "%s/faction_settings/%s", mcm_id, faction ), "")
+		ui_inventory.faction_text_colors[faction]	= get_colors_for_path(string_format( "%s/faction_settings/%s", mcm_id, faction ), "_text")
+	end
+	for slot, _ in pairs(slot_cell_defs) do
+		ui_inventory.slot_colors[slot]	= get_colors_for_path(string_format( "%s/base_settings/slots", mcm_id ), slot)
+	end
+	for stat, _ in pairs(stat_defs) do
+		ui_inventory.stat_colors[stat]	= get_colors_for_path(string_format( "%s/base_settings/stats", mcm_id ), stat)
+	end
+	ui_inventory.banner_color			= get_colors_for_path(string_format( "%s/base_settings/faction_banner", mcm_id ), "")
+	ui_inventory.player_faction_color	= get_colors_for_path(string_format( "%s/base_settings/faction_banner", mcm_id ), "_text")
+	ui_inventory.color_settings = {
+		["stat_colors"]			= ui_mcm.get(string_format( "%s/base_settings/stats/use_faction"				, mcm_id )),
+		["banner_color"]		= ui_mcm.get(string_format( "%s/base_settings/faction_banner/use_faction"		, mcm_id )),
+		["slot_colors"]			= ui_mcm.get(string_format( "%s/base_settings/slots/use_faction"				, mcm_id )),
+		["text_color"]			= ui_mcm.get(string_format( "%s/base_settings/faction_banner/use_faction_text"	, mcm_id )),
+		["use_alt_ranks"]		= ui_mcm.get(string_format( "%s/main_settings/use_alt_ranks"					, mcm_id )),
+		-- Added by Sota - new MCM settings for UI Rework
+		["use_alt_factions"]	= ui_mcm.get(string_format( "%s/main_settings/use_alt_factions"					, mcm_id )),
+		["use_alt_inv"]			= ui_mcm.get(string_format( "%s/main_settings/use_alt_inv"						, mcm_id )),
+		["use_alt_grid"]		= ui_mcm.get(string_format( "%s/main_settings/use_alt_grid"						, mcm_id )),
+		["use_alt_blockers"]	= ui_mcm.get(string_format( "%s/main_settings/use_alt_blockers"					, mcm_id )),
+		["use_alt_upgr"]		= ui_mcm.get(string_format( "%s/main_settings/use_alt_upgr"						, mcm_id )),
+		["use_alt_equ_bars"]	= ui_mcm.get(string_format( "%s/main_settings/use_alt_equ_bars"					, mcm_id )),
+		["use_alt_inv_bars"]	= ui_mcm.get(string_format( "%s/main_settings/use_alt_inv_bars"					, mcm_id )),
+		["use_alt_stats_bars"]	= ui_mcm.get(string_format( "%s/main_settings/use_alt_stats_bars"				, mcm_id )),
+		["use_inv_labels"]		= ui_mcm.get(string_format( "%s/main_settings/use_inv_labels"					, mcm_id )),
+		["use_small_icons"]		= ui_mcm.get(string_format( "%s/main_settings/use_small_icons"					, mcm_id )),
+		["use_inv_vert"]		= ui_mcm.get(string_format( "%s/main_settings/use_inv_vert"						, mcm_id )),
+		["inv_hint_alpha"]		= ui_mcm.get(string_format( "%s/main_settings/inv_hint_alpha"					, mcm_id )),
+	}
+	-- if HTS Bars patch is installed need to get mcm setting
+	if hts_inventory_bars then
+		ui_inventory.color_settings["use_alt_hts"] = ui_mcm.get(string_format( "%s/main_settings/use_alt_hts" , mcm_id ))
+	end
+	-- if IWR patch is installed need to get mcm setting
+	if is_z_iwr then
+		ui_inventory.color_settings["use_inv_weights"] = ui_mcm.get(string_format( "%s/main_settings/use_inv_weights" , mcm_id ))
+	end
+end
+
+function get_colors_for_path(path, str)
+	return GetARGB(
+		ui_mcm.get(string_format( "%s/color_alpha%s"	, path, str )),
+		ui_mcm.get(string_format( "%s/color_red%s"		, path, str )),
+		ui_mcm.get(string_format( "%s/color_green%s"	, path, str )),
+		ui_mcm.get(string_format( "%s/color_blue%s"		, path, str ))
+	)
+end
+
+function on_game_start()
+	RegisterScriptCallback("on_option_change", on_option_change)
+	on_option_change()
+end

@@ -1,0 +1,182 @@
+---==================================================================================================================---
+---                                                                                                                  ---
+---    Original Author(s) : NLTP_ASHES                                                                               ---
+---    Edited : N/A                                                                                                  ---
+---    Date : 25/08/2024                                                                                             ---
+---    License : Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)           ---
+---                                                                                                                  ---
+---    This script allows to use new lines in consumable config to make them have effects on the actor.              ---
+---                                                                                                                  ---
+---==================================================================================================================---
+
+-- ---------------------------------------------------------------------------------------------------------------------
+-- Constants, global variables and imported functions
+-- ---------------------------------------------------------------------------------------------------------------------
+
+effects = {
+    blurriness  = {
+        config_key = "facmeds_effect_blurriness",
+        type = "number",
+        use_functor = "on_use_blurriness",
+        update_functor = "on_update_blurriness",
+        data = {
+            duration = 0,
+            update_timer = 0,
+            update_freq = 5000
+        }
+    },
+    blackout = {
+        config_key = "facmeds_effect_blackout",
+        type = "number",
+        use_functor = "on_use_blackout",
+        update_functor = nil,
+        data = {}
+    },
+    psi_health = {
+        config_key = "facmeds_effect_psi_health",
+        type = "number",
+        use_functor = "on_use_psi_health",
+        update_functor = nil,
+        data = {}
+    },
+    move_speed = {
+        config_key = "facmeds_effect_move_speed",
+        type = "number",
+        use_functor = "on_use_move_speed",
+        update_functor = nil,
+        data = {}
+    },
+    color_shift = {
+        config_key = "facmeds_effect_color_shift",
+        type = "string",
+        use_functor = "on_use_color_shift",
+        update_functor = nil,
+        data = {}
+    },
+}
+
+-- ---------------------------------------------------------------------------------------------------------------------
+-- Main functions
+-- ---------------------------------------------------------------------------------------------------------------------
+
+function actor_on_item_use(obj)
+    for _,effect in pairs(effects) do
+        local effect_value = this.read_effect_from_section(obj:section(), effect)
+        printf("[FACMEDS] Effect %s with value %s", effect.config_key, effect_value)
+        if effect_value then
+            this[effect.use_functor](obj, effect_value)
+        end
+    end
+end
+
+function actor_on_update()
+    for _,effect in pairs(effects) do
+        if this[effect.update_functor] then
+            this[effect.update_functor](effect)
+        end
+    end
+end
+
+-- ---------------------------------------------------------------------------------------------------------------------
+-- Effects functions
+-- ---------------------------------------------------------------------------------------------------------------------
+
+function on_use_blurriness(obj, effect_value)
+    printf("[FACMEDS] Blurriness effect used with value: %s", effect_value)
+    if effect_value < 0 then
+        effects.blurriness.data.duration = effects.blurriness.data.duration - (effect_value * 1000)
+    else
+        effects.blurriness.data.duration = effect_value * 1000
+    end
+end
+
+function on_update_blurriness(effect)
+    local tg = time_global()
+    if tg < effect.data.update_timer then
+        return
+    end
+
+    effect.data.update_timer = tg + effect.data.update_freq
+    effect.data.duration = effect.data.duration - effect.data.update_freq
+
+    level.remove_pp_effector(53499)
+    if effect.data.duration > 0 then
+        level.add_pp_effector("yantar_underground_psi.ppe", 53499, false)
+    end
+end
+
+function on_use_blackout(obj, effect_value)
+    printf("[FACMEDS] Blackout effect used with value: %s", effect_value)
+    CreateTimeEvent("facmeds_effects", "blackout", effect_value, function()
+        ui_sleep_dialog.sleep_forced()
+        return true
+    end)
+end
+
+function on_use_psi_health(obj, effect_value)
+    printf("[FACMEDS] Psi health effect used with value: %s", effect_value)
+    arszi_psy.psy_table.actor_psy_health = arszi_psy.psy_table.actor_psy_health + effect_value
+end
+
+function on_use_move_speed(obj, effect_value)
+    printf("[FACMEDS] Move speed effect used with value: %s", effect_value)
+end
+
+function on_use_color_shift(obj, effect_value)
+    printf("[FACMEDS] Color shift effect used with value: %s", effect_value)
+end
+
+-- ---------------------------------------------------------------------------------------------------------------------
+-- Callbacks registration
+-- ---------------------------------------------------------------------------------------------------------------------
+
+--- Function used to register callbacks.
+--- @return nil
+function on_game_start()
+    RegisterScriptCallback("save_state", save_state)
+    RegisterScriptCallback("load_state", load_state)
+    RegisterScriptCallback("actor_on_update", actor_on_update)
+    RegisterScriptCallback("actor_on_item_use", actor_on_item_use)
+end
+
+-- ---------------------------------------------------------------------------------------------------------------------
+-- Data persistence
+-- ---------------------------------------------------------------------------------------------------------------------
+
+--- Function used to store information in the save file.
+--- @param m_data table
+--- @return nil
+function save_state(m_data)
+    m_data.facmeds_effects = {}
+    for name,effect in pairs(effects) do
+        m_data.facmeds_effects[name] = dup_table(effect.data)
+    end
+end
+
+--- Function used to load information stored in the save file.
+--- @param m_data table
+--- @return nil
+function load_state(m_data)
+    if not m_data.facmeds_effects then
+        return
+    end
+    for name,effect_data in pairs(m_data.facmeds_effects) do
+        effects[name].data = dup_table(effect_data)
+    end
+end
+
+-- ---------------------------------------------------------------------------------------------------------------------
+-- Utility functions
+-- ---------------------------------------------------------------------------------------------------------------------
+
+function read_effect_from_section(section, effect)
+    if effect.type == "number" then
+        return ini_sys:r_float_ex(section, effect.config_key)
+    end
+    if effect.type == "boolean" then
+        return ini_sys:r_bool_ex(section, effect.config_key)
+    end
+    if effect.type == "string" then
+        return ini_sys:r_string_ex(section, effect.config_key)
+    end
+end

@@ -1,0 +1,21 @@
+-- If you don't use MCM, change your defaults from here.
+local defaults = {
+	["open_btn"] = DIK_keys.DIK_T,
+	["modifier"] = 0,
+}
+
+function get_config(key)
+	if ui_mcm then return ui_mcm.get("xcvb_achievements/"..key) else return defaults[key] end
+end
+
+function on_mcm_load()
+	op = { id= "xcvb_achievements",sh=true ,gr={
+			{ id= "title",type= "slide",link= "ui_options_slider_player",text="ui_mcm_xcvb_achievements_title",size= {512,50},spacing= 20 },
+
+			{id = "open_btn", type = "key_bind", val = 2, def = DIK_keys.DIK_T},
+			{id = "modifier", type = ui_mcm.kb_mod_radio, val = 2, def = 1, hint = "mcm_kb_modifier" , content= { {0,"mcm_kb_mod_none"} , {1,"mcm_kb_mod_shift"} , {2,"mcm_kb_mod_ctrl"},{3,"mcm_kb_mod_alt"}}},
+		}
+	}
+
+	return op
+end
