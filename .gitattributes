@@ -1,3 +1,4 @@
 *.xml encoding=windows-1251
 *.ltx linguist-language=INI
 *.script linguist-language=Lua
+*.psd filter=lfs diff=lfs merge=lfs -text
