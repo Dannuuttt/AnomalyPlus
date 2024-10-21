@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="ui_mcm_menu_efp_ui">
+		<text>!SVUI x UI Rework</text>
+	</string>
+	<string id="ui_mcm_menu_efp_ui_title">
+		<text>Simplified Vision x UI Rework</text>
+	</string>
+	
+<!-- use faction colors -->
+	<string id="ui_mcm_efp_ui_use_faction">
+		<text>Цвета группировок/Пользовательские цвета</text>
+	</string>
+<!-- color slides -->
+	<string id="ui_mcm_efp_ui_red">
+		<text>Красный</text>
+	</string>
+	<string id="ui_mcm_efp_ui_green">
+		<text>Зеленый</text>
+	</string>
+	<string id="ui_mcm_efp_ui_blue">
+		<text>Синий</text>
+	</string>
+	<string id="ui_mcm_efp_ui_alpha">
+		<text>Прозрачность</text>
+	</string>
+	
+<!-- modules settings if exists -->
+	<string id="ui_mcm_menu_modules_settings">
+		<text>Настройки модулей</text>
+	</string>
+	
+<!-- faction colors cap -->
+	<string id="ui_mcm_menu_faction_settings">
+		<text>Цвета группировок</text>
+	</string>
+<!-- faction -->
+	<string id="ui_mcm_menu_stalker">
+		<text>Одиночки</text>
+	</string>
+	<string id="ui_mcm_menu_bandit">
+		<text>Бандиты</text>
+	</string>
+	<string id="ui_mcm_menu_csky">
+		<text>Чистое Небо</text>
+	</string>
+	<string id="ui_mcm_menu_dolg">
+		<text>Долг</text>
+	</string>
+	<string id="ui_mcm_menu_freedom">
+		<text>Свобода</text>
+	</string>
+	<string id="ui_mcm_menu_killer">
+		<text>Наемники</text>
+	</string>
+	<string id="ui_mcm_menu_army">
+		<text>Военные</text>
+	</string>
+	<string id="ui_mcm_menu_ecolog">
+		<text>Ученые</text>
+	</string>
+	<string id="ui_mcm_menu_monolith">
+		<text>Монолит</text>
+	</string>
+	<string id="ui_mcm_menu_renegade">
+		<text>Ренегаты</text>
+	</string>
+	<string id="ui_mcm_menu_greh">
+		<text>Грех</text>
+	</string>
+	<string id="ui_mcm_menu_isg">
+		<text>ИИГ</text>
+	</string>
+	
+<!-- user colors -->
+	<string id="ui_mcm_menu_base_settings">
+		<text>Настройки цвета</text>
+	</string>
+<!-- equ cell -->
+	<string id="ui_mcm_menu_slots">
+		<text>Слоты снаряжения</text>
+	</string>
+<!-- cells -->
+	<string id="ui_mcm_desc_cell_knife">
+		<text>Слот ножа</text>
+	</string>
+	<string id="ui_mcm_desc_cell_pistol">
+		<text>Слот пистолета</text>
+	</string>
+	<string id="ui_mcm_desc_cell_rifle">
+		<text>Слот основного оружия</text>
+	</string>
+	<string id="ui_mcm_desc_cell_grenade">
+		<text>Слот гранаты</text>
+	</string>
+	<string id="ui_mcm_desc_cell_binoculars">
+		<text>Слот бинокля</text>
+	</string>
+	<string id="ui_mcm_desc_cell_bolt">
+		<text>Слот болта</text>
+	</string>
+	<string id="ui_mcm_desc_cell_outfit">
+		<text>Слот костюма</text>
+	</string>
+	<string id="ui_mcm_desc_cell_pda">
+		<text>Слот КПК</text>
+	</string>
+	<string id="ui_mcm_desc_cell_detector">
+		<text>Слот детектора</text>
+	</string>
+	<string id="ui_mcm_desc_cell_torch">
+		<text>Слот налобного фонарика</text>
+	</string>
+	<string id="ui_mcm_desc_cell_helmet">
+		<text>Слот шлема</text>
+	</string>
+	<string id="ui_mcm_desc_cell_backpack">
+		<text>Слот рюкзака</text>
+	</string>
+	<string id="ui_mcm_desc_cell_quick">
+		<text>Слоты быстрого доступа</text>
+	</string>
+	<string id="ui_mcm_desc_cell_belt">
+		<text>Слоты пояса</text>
+	</string>
+	
+<!-- stat bars -->
+	<string id="ui_mcm_menu_stats">
+		<text>Полоски статов</text>
+	</string>
+<!-- bars -->
+	<string id="ui_mcm_desc_stat_health">
+		<text>Полоска здоровья</text>
+	</string>
+	<string id="ui_mcm_desc_stat_radia">
+		<text>Полоска радиозащиты</text>
+	</string>
+	<string id="ui_mcm_desc_stat_acid">
+		<text>Полоска химзащиты</text>
+	</string>
+	<string id="ui_mcm_desc_stat_shock">
+		<text>Полоска электрозащиты</text>
+	</string>
+	<string id="ui_mcm_desc_stat_fire">
+		<text>Полоска термозащиты</text>
+	</string>
+	<string id="ui_mcm_desc_stat_psi">
+		<text>Полоска пси-защиты</text>
+	</string>
+	<string id="ui_mcm_desc_stat_wound">
+		<text>Полоска защиты от разрыва</text>
+	</string>
+	<string id="ui_mcm_desc_stat_fire_wound">
+		<text>Полоска баллистической защиты</text>
+	</string>
+	<string id="ui_mcm_desc_stat_power">
+		<text>Полоска восстановления выносливости</text>
+	</string>
+	<string id="ui_mcm_desc_stat_hunger">
+		<text>Полоска сытости</text>
+	</string>
+	<string id="ui_mcm_desc_stat_thirst">
+		<text>Полоска гидратации</text>
+	</string>
+	<string id="ui_mcm_desc_stat_sleep">
+		<text>Полоска бодрости</text>
+	</string>
+	
+<!-- faction overlays -->
+	<string id="ui_mcm_menu_faction_banner">
+		<text>Оверлеи группировок</text>
+	</string>
+<!-- faction colors -->
+	<string id="ui_mcm_desc_faction_banner_color">
+		<text>Цвет оверлея группировки</text>
+	</string>
+	<string id="ui_mcm_desc_faction_text_color">
+		<text>Цвет текста оверлея группировки</text>
+	</string>
+	
+<!-- main settings -->
+	<string id="ui_mcm_menu_main_settings">
+		<text>Основные настройки</text>
+	</string>
+<!-- alt_ranks -->
+	<string id="ui_mcm_efp_ui_use_alt_ranks">
+		<text>Стиль иконок рангов</text>
+	</string>
+	<string id="ui_mcm_lst_ranks">
+		<text>GAMMA</text>
+	</string>
+	<string id="ui_mcm_lst_ranks_mui">
+		<text>Modern UI</text>
+	</string>
+	<string id="ui_mcm_lst_ranks_svui">
+		<text>Simplified Vision UI</text>
+	</string>
+	<string id="ui_mcm_lst_ranks_svui_alt">
+		<text>Simplified Vision UI v2</text>
+	</string>
+<!-- alt_factions -->
+	<string id="ui_mcm_efp_ui_use_alt_factions">
+		<text>Стиль оврелеев группировки</text>
+	</string>
+	<string id="ui_mcm_lst_factions">
+		<text>GAMMA</text>
+	</string>
+	<string id="ui_mcm_lst_factions_alt">
+		<text>Modern UI</text>
+	</string>
+	<string id="ui_mcm_lst_factions_alt2">
+		<text>Modern UI v2</text>
+	</string>
+<!-- alt_inv -->
+	<string id="ui_mcm_efp_ui_use_alt_inv">
+		<text>Стиль инвентаря</text>
+	</string>
+	<string id="ui_mcm_lst_inv">
+		<text>GAMMA</text>
+	</string>
+	<string id="ui_mcm_lst_inv_alt">
+		<text>Альтернативный</text>
+	</string>
+	<string id="ui_mcm_lst_inv_alt_bg">
+		<text>Альтернативный с темным фоном</text>
+	</string>
+<!-- alt_grid -->
+	<string id="ui_mcm_efp_ui_use_alt_grid">
+		<text>Стиль сетки инвентаря</text>
+	</string>
+	<string id="ui_mcm_lst_no_grid">
+		<text>Без сетки</text>
+	</string>
+	<string id="ui_mcm_lst_grid">
+		<text>Простой</text>
+	</string>
+	<string id="ui_mcm_lst_grid_alt">
+		<text>Альтернативный с затенением</text>
+	</string>
+<!-- alt_blockers -->
+	<string id="ui_mcm_efp_ui_use_alt_blockers">
+		<text>Стиль блокировки слотов инвентаря</text>
+	</string>
+	<string id="ui_mcm_lst_blck_lock">
+		<text>Замок</text>
+	</string>
+	<string id="ui_mcm_lst_blck_cross">
+		<text>Крест</text>
+	</string>
+	<string id="ui_mcm_lst_blck_dash">
+		<text>Прочерк</text>
+	</string>
+<!-- alt_upgr -->
+	<string id="ui_mcm_efp_ui_use_alt_upgr">
+		<text>Стиль иконок индикатора улучшения</text>
+	</string>
+	<string id="ui_mcm_lst_upgr">
+		<text>По умолчанию</text>
+	</string>
+	<string id="ui_mcm_lst_upgr_gear">
+		<text>Шестеренка</text>
+	</string>
+	<string id="ui_mcm_lst_upgr_arrow">
+		<text>Стрелка</text>
+	</string>
+	<string id="ui_mcm_lst_upgr_wrench">
+		<text>Гаечный ключ</text>
+	</string>
+<!-- alt_equ_bars -->
+	<string id="ui_mcm_efp_ui_use_alt_equ_bars">
+		<text>Стиль полосок слотов экипировки\n(нужно перезагрузить сохранение)</text>
+	</string>
+	<string id="ui_mcm_lst_bars">
+		<text>По умолчанию</text>
+	</string>
+	<string id="ui_mcm_lst_bars_flat">
+		<text>Сплошной</text>
+	</string>
+	<string id="ui_mcm_lst_bars_fade">
+		<text>Сплошной (градиент)</text>
+	</string>
+<!-- alt_inv_bars -->
+	<string id="ui_mcm_efp_ui_use_alt_inv_bars">
+		<text>Стиль полосок инвентаря\n(нужно перезагрузить сохранение)</text>
+	</string>
+<!-- alt_stats_bars -->
+	<string id="ui_mcm_efp_ui_use_alt_stats_bars">
+		<text>Стиль полосок статов\n(нужно перезагрузить сохранение)</text>
+	</string>
+<!-- inv_labels -->
+	<string id="ui_mcm_efp_ui_use_inv_labels">
+		<text>Подписи слотов инвентаря</text>
+	</string>
+<!-- small_icons -->
+	<string id="ui_mcm_efp_ui_use_small_icons">
+		<text>Уменьшенные иконки инвентаря</text>
+	</string>
+<!-- inv_vert -->
+	<string id="ui_mcm_efp_ui_use_inv_vert">
+		<text>Вертикальные оружейные слоты</text>
+	</string>
+<!-- inv_hint_alpha -->
+	<string id="ui_mcm_efp_ui_inv_hint_alpha">
+		<text>Прозрачность фона всплыв. подсказки инвентаря</text>
+	</string>
+	
+<!-- alt_hts -->
+	<string id="ui_mcm_efp_ui_use_alt_hts">
+		<text>Макет аддона Hunger Thirst Sleepiness Bars - xcvb</text>
+	</string>
+	<string id="ui_mcm_lst_hts">
+		<text>HTS стандартный</text>
+	</string>
+	<string id="ui_mcm_lst_htsp">
+		<text>HTS + полоска выносливости</text>
+	</string>
+	<string id="ui_mcm_lst_hts_alt">
+		<text>HTS альтернативный</text>
+	</string>
+	
+<!-- inv_weights -->
+	<string id="ui_mcm_efp_ui_use_inv_weights">
+		<text>Inventory Weights Revised - Demonized</text>
+	</string>
+	
+</string_table>
