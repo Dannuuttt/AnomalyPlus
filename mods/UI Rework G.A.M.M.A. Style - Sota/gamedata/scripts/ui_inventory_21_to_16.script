@@ -1,0 +1,8 @@
+function ui_inventory.get_screen_ratio_postfix()
+	local ratio = utils_xml.screen_ratio()
+	if (ratio > 0.75) then
+		return ""
+	else
+		return "_16"
+	end
+end

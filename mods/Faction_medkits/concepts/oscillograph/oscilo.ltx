@@ -1,0 +1,68 @@
+[facmeds_oscillograph]:tch_junk
+$spawn                                           = "devices\pda"
+cform                                            = skeleton
+icons_texture                                    = ui\icons\ui_icon_CHANGETOREADABLES
+																			;PORT THIS VVVV
+visual                                           = dynamics\western_goods_tech\wg_military_radio.ogf
+kind                                             = i_misc
+quest_item                           		   = true
+wg_readable                                      = true
+use1_functor                                     = western_goods_ui_readable.menu_view
+use1_action_functor                              = western_goods_ui_readable.use_item
+use1_allow_db                                    = true
+readable                                         = true
+;"The SI-65A Oscillograph is an oscilloscope used in mobile science labs around The Zone. It is used for conducting various measurements and tests, specifically with electronic devices and certain anomalous phenomena. It is rather expensive and would fetch a nice price at a looter camp, however, that would equate to Sakharov losing invaluable lab equipment, making you a kill-on-sight at any mobile lab."
+
+inv_name                                         = st_facmeds_oscillograph
+inv_name_short                                   = st_facmeds_oscillograph
+description                                      = st_facmeds_oscillograph_descr
+inv_weight                                       = 12
+cost                                             = 10000
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 2
+inv_grid_x                                       = X
+inv_grid_y                                       = X
+tier                                             = 2
+
+[facmeds_microchip]:tch_junk
+$spawn                                           = "devices\pda"
+cform                                            = skeleton
+icons_texture                                    = ui\icons\ui_icon_CHANGETOREADABLES
+																			;CHANGE TO MICROCHIP
+visual                                           = dynamics\western_goods_tech\wg_military_radio.ogf
+kind                                             = i_misc
+quest_item                           		   = true
+wg_readable                                      = true
+use1_functor                                     = western_goods_ui_readable.menu_view
+use1_action_functor                              = western_goods_ui_readable.use_item
+use1_allow_db                                    = true
+readable                                         = true
+;"This appears to be a microchip from some kind of electronic device. I have no clue how it can be useful to anyone in The Zone, but Novikov knows better than me. I was asked to bring this to him."
+
+inv_name                                         = st_facmeds_microchip
+inv_name_short                                   = st_facmeds_microchip
+description                                      = st_facmeds_microchip_descr
+inv_weight                                       = 0.15
+cost                                             = 1000
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 1
+inv_grid_x                                       = X
+inv_grid_y                                       = X
+tier                                             = 2
+
+[facmeds_chipmap]:banditletter1
+;"A map, seemingly sketched out by a member of Clear Sky. It depicts the derelict train in the northern part of The Great Swamps. Novikov said the microchip should be somewhere on the premises. According to the note I was given, it seems like some scavengers might've left it behind."
+
+cost                                             = 100
+inv_grid_x                                       = X
+inv_grid_y                                       = X
+inv_grid_width                                   = 2
+inv_grid_height                                  = 2
+
+inv_name                                         = st_darkscapemap
+inv_name_short                                   = st_darkscapemap
+description                                      = st_darkscapemap_descr
+inv_weight                                       = 0.15
+

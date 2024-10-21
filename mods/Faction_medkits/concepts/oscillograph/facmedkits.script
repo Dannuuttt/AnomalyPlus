@@ -1,0 +1,25 @@
+--- checks that the player has an oscillograph; precondition
+function facmeds_has_oscillograph(first_speaker, second_speaker)
+	return mlr_utils.have_item('facmeds_oscillograph', 1)
+end
+ 
+--- give oscillograph
+function relocate_item_oscillograph_to_actor(a, b)
+ dialogs.relocate_item_section_to_actor(a, b, "facmeds_oscillograph")
+end
+
+
+--- spawns microchip
+function spawn_microchip_facmeds(first_speaker, second_speaker)
+alife(alife_pripyat):create("facmeds_microchip",vector():set(-249.45230102539,-13.491371154785,-29.858497619629),12990,386)
+end
+
+--- checks that the player has a microchip; precondition
+function facmeds_has_oscillograph(first_speaker, second_speaker)
+	return mlr_utils.have_item('facmeds_microchip', 1)
+end
+
+--- give chipmap
+function relocate_item_chipmap_to_actor(a, b)
+ dialogs.relocate_item_section_to_actor(a, b, "facmeds_chipmap")
+end
