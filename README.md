@@ -4,6 +4,12 @@
 
 - This is a **Modpack** for Original S.T.A.L.K.E.R Anomaly which aims to rebalance, change and create new gameplay features, with complete graphical overhaul, tons of new mutants, anomalies and a rework for storylines.
 
+# Instalation
+
+- Download the release 
+
+- Don't forget to extract /mods/Boomsticks_and_Sharpsticks/gamedata/textures/ui/ui_icon_bas.7z
+
 # Contributions
 
 -  Please only make Pull requests under the **dev** branch.

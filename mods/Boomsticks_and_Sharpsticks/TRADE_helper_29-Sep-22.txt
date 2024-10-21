@@ -1,0 +1,270 @@
+02-Jul-21
+
+;---------------------------------------------------------------------SCOPES_HIERARCHY-------------------------------------------------------------------------
+
+RED DOT SIGHTS:
+
+rmr                        = 1, 1     ;BaS  (trade_stalker_nimble)
+deltapoint                 = 1, 1     ;BaS  (trade_mercenary)
+d0cter                     = 1, 1     ;BaS  (trade_stalker_owl)
+aim_low                    = 1, 1     ;BaS  (trade_mercenary_meeker)
+aimpoint                   = 1, 1     ;BaS  (trade_mercenary, trade_freedom)
+c-more                     = 1, 1     ;BaS  (trade_mercenary, trade_freedom)
+e0t2                       = 1, 1     ;BaS  (trade_mercenary, trade_stalker_owl)
+eot                        = 1, 1     ;BaS  (trade_mercenary, trade_freedom)
+compm4s                    = 1, 1     ;BaS  (trade_csky_spore, trade_freedom, trade_mercenary, trade_mercenary_meeker, trade_stalker_owl)
+kemper                     = 1, 1     ;BaS  (trade_csky_spore, trade_freedom, trade_mercenary, trade_mercenary_meeker, trade_stalker_owl)
+mepro                      = 1, 1     ;BaS  (trade_ecolog_hermann, trade_freedom, trade_greh, trade_isg, trade_isg_light, trade_isg_mission, trade_mercenary, trade_mercenary_basic, trade_mercenary_meeker, trade_monolith)
+point_aimpro               = 1, 1     ;BaS  (trade_mercenary, trade_freedom,  trade_isg) 
+rakurs                     = 1, 1     ;BaS  (trade_csky_spore, trade_military, trade_military_esc, trade_duty, trade_stalker_sidorovich)
+0kp2                       = 1, 1     ;BaS  (trade_stalker_sidorovich, trade_mercenary, trade_monolith, trade_freedom, trade_isg, trade_isg_mission)
+okp                        = 1, 1     ;BaS  (trade_bandit, trade_csky_spore, trade_stalker_owl)
+ekp8_02                    = 1, 1     ;BaS  (trade_stalker_butcher, trade_duty, trade_stalker_loris)
+ac10632                    = 1, 1     ;BaS  (trade_mercenary, trade_freedom)
+kobra                      = 1, 1     ;BaS  (trade_povar)
+pka                        = 1, 1     ;BaS  (trade_bandit, trade_csky_spore, trade_military, trade_military_esc)
+1p76                       = 1, 1     ;BaS  (trade_duty, trade_military, trade_military_esc, trade_stalker_loris, trade_stalker_owl)
+ekp8_18                    = 1, 1     ;BaS  (trade_duty, trade_freedom, trade_mercenary, trade_monolith, trade_stalker_flea_market, trade_stalker_owl)
+kp_sr2                     = 1, 1     ;BaS  (trade_duty, trade_military)
+
+okep77                     = 1, 1     ;BaS  (trade_csky_spore, trade_duty, trade_stalker_sidorovich, trade_stalker)
+
+
+MAGNIFICATION SIGHTS:
+
+gauss_sight                = 1, 1     ;BaS    trade_ecolog_sakharov, trade_monolith
+marchf                     = 1, 1     ;BaS    trade_freedom, trade_mercenary
+leupold                    = 1, 1     ;BaS    trade_stalker_owl, trade_freedom,
+specter                    = 1, 1     ;BaS    trade_csky_spore, trade_mercenary
+acog                       = 1, 1     ;BaS    trade_freedom_ashot
+susat                      = 1, 1     ;BaS    trade_freedom, trade_mercenary, trade_csky_spore
+pso2                       = 1, 1     ;BaS    trade_stalker_loris, trade_stalker_owl, trade_stalker_sidorovich, trade_duty, trade_freedom, trade_mercenary, trade_military, trade_csky_spore, trade_stalker_butcher, trade_ecolog_sakharov, trade_stalker_flea_market
+usp1                       = 1, 1     ;BaS    trade_stalker_loris, trade_stalker_owl, trade_stalker_sidorovich, trade_duty, trade_freedom, trade_mercenary, trade_military
+1p78gs                     = 1, 1     ;BaS    trade_stalker_loris, trade_stalker_owl, trade_stalker_sidorovich, trade_duty, trade_freedom, trade_mercenary, trade_military
+1p29                       = 1, 1     ;BaS    trade_stalker_sidorovich
+pso1m21                    = 1, 1     ;BaS    trade_military
+ps01                       = 1, 1     ;BaS    trade_military, trade_duty
+pn23                       = 1, 1     ;BaS    trade_duty, trade_freedom, trade_mercenary
+1pn93n2_1gs                = 1, 1     ;BaS    trade_military, trade_csky_spore, trade_ecolog_sakharov
+1pn93                      = 1, 1     ;BaS    trade_stalker_loris, trade_stalker_butcher, trade_military_esc
+pgo7gs                     = 1, 1     ;BaS    trade_military_esc, trade_bandit, trade_stalker_owl
+1p59                       = 1, 1     ;BaS    trade_duty, trade_mercenary, trade_military_agro
+
+susatov                    = 1, 1     ;BaS    trade_csky_spore, trade_freedom, trade_freedom_ashot, trade_greh, trade_isg, trade_monolith, trade_stalker_sidorovich    - scope for L85 dovetail
+pn23fore                   = 1, 1     ;BaS
+
+WEAPONS:
+
+wpn_knife6                 = 1, 1     ;BaS  (trade_duty, trade_csky_spore, trade_freedom, trade_isg, trade_isg_light, trade_mercenary, trade_mercenary_basic, trade_monolith, trade_monolith_basic, trade_stalker_loris, trade_stalker_owl)
+wpn_knife8                 = 1, 1     ;BaS  (trade_bandit, trade_monolith, trade_monolith_basic, trade_stalker_butcher)
+wpn_knife7                 = 1, 1     ;BaS  (trade_ecolog_sakharov, trade_isg, trade_isg_mission, trade_monolith, trade_monolith_basic)
+wpn_knife9                 = 1, 1     ;BaS  (trade_duty, trade_isg, trade_isg_mission, trade_mercenary, trade_monolith, trade_monolith_basic)
+
+wpn_pm_bas                 = 1, 1     ;BaS  (trade_bandit, trade_stalker_sidorovich, trade_csky_spore, trade_duty, trade_freedom, trade_greh, trade_military_agro, trade_military_esc, trade_monolith, trade_renegade, trade_stalker, trade_stalker_loris)
+wpn_pm_bas_actor           = 1, 1     ;BaS  (trade_stalker_loris, trade_stalker_flea_market_day)
+wpn_pm_bas_custom          = 1, 1     ;BaS  (trade_duty, trade_military_agro)
+wpn_pmm_bas                = 1, 1     ;BaS  (trade_stalker_sidorovich, trade_stalker_flea_market_night)
+wpn_pb_bas                 = 1, 1     ;BaS  (trade_military - all)
+wpn_pb_bas_custom          = 1, 1     ;BaS  (trade_military_agro)
+wpn_vintorez_isg           = 1, 1     ;BaS  (trade_isg, trade_isg_mission, trade_mercenary_zaton)
+wpn_gauss                  = 1, 1     ;BaS  (trade_stalker_nimble)
+wpn_rpg7                   = 1, 1     ;BaS  (trade_stalker_cashier)              
+wpn_fn57                   = 1, 1     ;BaS  (trade_freedom_ashot, trade_isg, trade_mercenary_pripyat, trade_monolith)
+wpn_svds_pmc               = 1, 1     ;BaS  (trade_mercenary, trade_monolith)
+wpn_m4_butcher             = 1, 1     ;BaS  (trade_freedom, trade_isg, trade_isg_mission, trade_mercenary, trade_monolith)
+wpn_ks23_kaban             = 1, 1     ;BaS  (trade_bandit, trade_greh, trade_mercenary, trade_military, trade_military_esc, trade_monolith, trade_renegade, trade_stalker_nimble)
+wpn_ak74_isg               = 1, 1     ;BaS  (trade_isg, trade_mercenary_zaton, trade_stalker_nimble)
+wpn_fn57                   = 1, 1     ;BaS  (trade_freedom, trade_isg, trade_isg_mission, trade_mercenary_meeker, trade_monolith)
+wpn_ak12_custom            = 1, 1     ;BaS  (trade_monolith, trade_monolith_basic, trade_stalker_nimble)
+wpn_ak12_bas               = 1, 1     ;BaS  (trade_duty, trade_military)
+wpn_ak74_pmc               = 1, 1     ;BaS  (trade_greh, trade_mercenary, trade_monolith, trade_monolith_basic, trade_stalker_sidorovich)
+wpn_saiga12s_isg           = 1, 1     ;BaS  (trade_isg, trade_isg_mission, trade_mercenary)
+wpn_dvl10_m1               = 1, 1     ;BaS  (trade_mercenary_meeker, trade_monolith)
+wpn_m4_ru556               = 1, 1     ;BaS  (trade_ecolog_hermann)
+wpn_ak74u_tac              = 1, 1     ;BaS  (trade_duty, trade_mercenary_basic, trade_stalker_nimble, trade_military) 
+wpn_dvl10                  = 1, 1     ;BaS  (trade_duty, trade_mercenary)
+wpn_vintorez_m1            = 1, 1     ;BaS  (trade_csky_spore, trade_ecolog_hermann, trade_ecolog_sakharov)
+wpn_usp_tac                = 1, 1     ;BaS  (trade_ecolog_sakharov)
+wpn_vintorez_m2            = 1, 1     ;BaS  (trade_mercenary)
+wpn_val_tac                = 1, 1     ;BaS  (trade_duty, trade_mercenary)
+wpn_akm_isg                = 1, 1     ;BaS  (trade_isg, trade_isg_light, trade_isg_mission, trade_mercenary, trade_stalker_nimble)
+wpn_ak74u_m1_isg           = 1, 1     ;BaS  (trade_isg, trade_isg_light, trade_isg_mission, trade_mercenary, trade_stalker_nimble)
+wpn_ak74u_isg              = 1, 1     ;BaS  (trade_isg, trade_isg_light, trade_isg_mission, trade_mercenary, trade_stalker_nimble)
+wpn_ks23                   = 1, 1     ;BaS  (trade_csky_spore, trade_military, trade_military_esc)
+wpn_m4_tac                 = 1, 1     ;BaS  (trade_freedom_ashot, trade_mercenary, trade_stalker_nimble)
+wpn_saiga12s_m2            = 1, 1     ;BaS  (trade_mercenary)
+wpn_vintorez_n1            = 1, 1     ;BaS  (trade_csky_spore, trade_duty, trade_greh, trade_isg, trade_mercenary, trade_mercenary_meeker, trade_military, trade_military_esc, trade_monolith, trade_stalker_nimble, trade_stalker_owl,
+wpn_ak12_m1                = 1, 1     ;BaS  (trade_duty, trade_mercenary_meeker, trade_military, trade_monolith, trade_stalker_owl)
+wpn_saiga12s_m1            = 1, 1     ;BaS  (trade_csky_spore, trade_ecolog_sakharov)
+wpn_ak105_sp               = 1, 1     ;BaS  (trade_mercenary, trade_stalker_nimble)
+wpn_ak105_bas              = 1, 1     ;BaS  (trade_mercenary, trade_duty, trade_csky_spore, trade_military) 
+wpn_sks_tac                = 1, 1     ;BaS  (trade_csky_spore, trade_stalker_flea_market_night)
+wpn_ak74m_beard            = 1, 1     ;BaS  (trade_csky_spore, trade_duty, trade_stalker_owl, trade_stalker_flea_market_night)
+wpn_sks_molot              = 1, 1     ;BaS  (trade_bandit, trade_bandit_basic, trade_csky_spore, trade_renegade, trade_stalker_loris, trade_stalker_owl, trade_stalker_sidorovich, trade_stalker_flea_market_night)
+wpn_ak74u_n1               = 1, 1     ;BaS  (trade_bandit, trade_csky_spore, trade_duty, trade_freedom, trade_isg, trade_isg_light, trade_mercenary, trade_mercenary_basic, trade_mercenary_meeker, trade_military, trade_military_esc, trade_renegade, trade_stalker_flea_market, trade_stalker_loris, trade_stalker_owl, trade_stalker_sidorovich)
+wpn_toz106                 = 1, 1     ;BaS  (trade_csky_spore, trade_greh, trade_renegade, trade_stalker_sidorovich)
+wpn_toz106_m1              = 1, 1     ;BaS  (trade_csky_spore, trade_stalker_butcher, trade_stalker_flea_market, trade_stalker_loris)
+wpn_glock17                = 1, 1     ;BaS  (trade_csky_spore, trade_greh, trade_renegade, trade_isg, trade_mercenary, trade_mercenary_basic, trade_mercenary_meeker, trade_monolith, trade_monolith_basic, trade_stalker_sidorovich)
+wpn_glock17_m1             = 1, 1     ;BaS  (trade_isg, trade_mercenary, trade_monolith, trade_freedom, trade_stalker_owl)
+wpn_fal_aus                = 1, 1     ;BaS  (trade_isg, trade_mercenary, trade_monolith, trade_freedom, trade_stalker_owl, trade_stalker_flea_market)
+wpn_fal_sa58_osw           = 1, 1     ;BaS  (trade_isg, trade_mercenary, trade_mercenary_basic, trade_monolith, trade_freedom)
+wpn_mp153_m1               = 1, 1     ;BaS  (trade_freedom, trade_greh, trade_stalker_butcher, trade_stalker_owl, trade_stalker_darkscape)
+wpn_mp153                  = 1, 1     ;BaS  (trade_bandit, trade_duty, trade_csky_spore, trade_greh, trade_military, trade_stalker, trade_renegade)                                         
+wpn_mp133                  = 1, 1     ;BaS  (trade_stalker, trade_bandit, trade_csky_spore, trade_greh, trade_renegade)
+wpn_pm_actor               = 1, 1     ;BaS  (trade_stalker_flea_market, trade_stalker_nimble)
+wpn_svds                   = 1, 1     ;BaS  (trade_duty, trade_military)
+wpn_ak74_n                 = 1, 1     ;BaS  (trade_csky_spore, trade_duty, trade_greh, trade_military, trade_stalker)
+wpn_ak74m_n                = 1, 1     ;BaS  (trade_csky_spore, trade_duty, trade_greh, trade_military, trade_stalker)
+wpn_svd_m1                 = 1, 1     ;BaS  (trade_csky_spore, trade_duty, trade_military, trade_stalker)
+wpn_ak104_alfa             = 1, 1     ;BaS  (trade_monolith, trade_stalker_nimble)
+wpn_ak12                   = 1, 1     ;BaS  (trade_duty, trade_mercenary)           Originaly only mercs. I added to duty. 
+wpn_colt1911_n             = 1, 1     ;BaS  (trade_csky_spore, trade_stalker, trade_freedom, trade_renegade, trade_bandit)
+wpn_walther_p99            = 1, 1     ;BaS  (trade_csky_spore, trade_stalker, trade_freedom, trade_renegade, trade_bandit)
+wpn_sig220_n               = 1, 1     ;BaS  (trade_csky_spore, trade_stalker, trade_freedom, trade_renegade, trade_bandit)
+wpn_sig226                 = 1, 1     ;BaS  (trade_freedom, trade_isg, trade_isg_mission, trade_mercenary)
+wpn_rpk74_16               = 1, 1     ;BaS  (trade_csky_spore, trade_mercenary, trade_isg, trade_isg_light, trade_isg_mission, trade_stalker_owl, trade_military)
+wpn_abakan_n               = 1, 1     ;BaS  (trade_csky_spore, trade_stalker, trade_duty, trade_military)
+wpn_remington700           = 1, 1     ;BaS  (trade_stalker, trade_isg, trade_mercenary)
+wpn_sr1m                   = 1, 1     ;BaS  (trade_mercenary, trade_duty, trade_military)
+wpn_k98_mod                = 1, 1     ;BaS  (trade_stalker_forester)
+wpn_pl15                   = 1, 1     ;BaS  (trade_duty, trade_military) inc. tan
+wpn_aps_bas                = 1, 1     ;BaS  (trade_stalker, trade_military, trade_povar)
+wpn_akm_alfa               = 1, 1     ;BaS  (trade_isg, trade_freedom)
+wpn_sr2_veresk             = 1, 1     ;BaS  (trade_duty, trade_military, trade_military_esc)
+wpn_sr2_m1                 = 1, 1     ;BaS  (trade_duty, trade_military) Level 5
+wpn_aug_a1_bas             = 1, 1     ;BaS  (trade_mercenary, trade_freedom, trade_greh, trade_isg, trade_isg_mission, trade_monolith, trade_monolith_basic)
+wpn_aug_a1_custom_bas      = 1, 1     ;BaS  (trade_mercenary, trade_isg, trade_isg_mission, trade_monolith, trade_monolith_basic)
+wpn_aug_a3_bas             = 1, 1     ;BaS  (trade_mercenary, trade_isg, trade_isg_mission, trade_monolith, trade_freedom)
+wpn_aug_a3_custom_bas      = 1, 1     ;BaS  (trade_mercenary, trade_isg, trade_isg_mission)
+wpn_ak5c_bas               = 1, 1     ;BaS  (trade_isg, trade_isg_light, trade_isg_mission, trade_mercenary, trade_freedom)
+wpn_ak5c_isg               = 1, 1     ;BaS  (trade_isg, trade_isg_light, trade_isg_mission, trade_mercenary)
+wpn_akm_bas                = 1, 1     ;BaS  (trade_bandit, trade_greh, trade_military, trade_monolith, trade_povar, trade_stalker)
+wpn_akms_bas               = 1, 1     ;BaS  (trade_bandit, trade_greh, trade_military, trade_monolith, trade_povar, trade_stalker)
+wpn_sks_b                  = 1, 1     ;BaS  (trade_bandit, trade_csky_spore, trade_stalker_sidorovich, trade_duty, trade_freedom, trade_greh, trade_renegade, trade_stalker, trade_stalker_flea_market_day)
+wpn_m4a1_siber             = 1, 1     ;BaS  (trade_freedom, trade_freedom_ashot, trade_greh, trade_isg, trade_isg_mission, trade_mercenary, trade_monolith, trade_monolith_basic, trade_stalker_owl)
+wpn_scar_siber             = 1, 1     ;BaS  (trade_freedom, trade_isg, trade_mercenary)
+wpn_scar_siber_black       = 1, 1     ;BaS  (trade_freedom, trade_mercenary, trade_monolith, trade_greh)
+wpn_scar_siber_m1          = 1, 1     ;BaS  (trade_freedom, trade_mercenary, trade_monolith, trade_greh, trade_stalker_nimble)
+wpn_scar_siber_m1_black    = 1, 1     ;BaS  (trade_freedom, , trade_monolith, trade_mercenary_zaton)
+wpn_scar_siber_m2          = 1, 1     ;BaS  (trade_monolith, trade_mercenary_zaton)
+wpn_scar_siber_m2_custom   = 1, 1     ;BaS  (trade_stalker_flea_market_night)
+wpn_l85_m1                 = 1, 1     ;BaS  (trade_monolith, trade_stalker_flea_market_night, trade_csky_spore, trade_freedom, trade_greh, trade_isg)
+wpn_l85_m2                 = 1, 1     ;BaS  (trade_monolith, trade_freedom, trade_isg, trade_mercenary_zaton)
+wpn_l85_m3                 = 1, 1     ;BaS  (trade_monolith, trade_freedom, trade_isg, trade_mercenary_pripyat)
+wpn_korth                  = 1, 1     ;BaS  (trade_csky_spore, trade_stalker)
+wpn_korth_custom           = 1, 1     ;BaS  (trade_stalker_barman)
+wpn_howa20                 = 1, 1     ;BaS  (trade_ecolog_hermann)
+wpn_ar15_freedom           = 1, 1     ;BaS  (trade_freedom)
+
+wpn_m4_skryaga             = 1, 1     ;BaS  (trade_freedom)
+wpn_ak12_mono_com          = 1, 1     ;BaS  (trade_monolith, trade_mercenary_pripyat 22%)
+wpn_pkm_siber              = 1, 1     ;BaS  (trade_duty, trade_mercenary_pripyat, trade_mercenary_zaton, trade_military_agro, trade_military_esc)
+wpn_kiparis_s              = 1, 1     ;BaS  (trade_bandit, trade_csky_spore, trade_duty, trade_greh, trade_military_agro, trade_mechanic_military_esc, trade_renegade, trade_stalker, trade_stalker_barman, trade_stalker_flea_market_night, trade_stalker_loris, trade_stalker_sidorovich)
+wpn_kiparis_m1             = 1, 1     ;BaS  (trade_stalker_loris)
+wpn_kiparis_m2             = 1, 1     ;BaS  (trade_duty)
+wpn_kiparis_m3             = 1, 1     ;BaS  (trade_csky_spore)
+wpn_vz61_scorpion          = 1, 1     ;BaS  (trade_bandit, trade_csky_spore, trade_greh, trade_renegade, trade_stalker, trade_stalker_barman, trade_stalker_flea_market_night, trade_stalker_loris, trade_stalker_sidorovich)
+wpn_vz61_scorpion_m1       = 1, 1     ;BaS  (trade_stalker_loris)
+wpn_vz61_scorpion_m2       = 1, 1     ;BaS  (trade_stalker_sidorovich)
+wpn_sig550_siber           = 1, 1     ;BaS  (trade_stalker, trade_csky_spore, trade_freedom, trade_mercenary, trade_stalker_cashier, trade_monolith)
+wpn_sig550_tac_siber       = 1, 1     ;BaS  (trade_freedom, trade_mercenary, trade_stalker_cashier, trade_monolith)
+wpn_sig552_isg_siber       = 1, 1     ;BaS  (trade_mercenary, trade_isg)
+wpn_sig552_siber           = 1, 1     ;BaS  (trade_mercenary, trade_greh, trade_freedom, trade_csky_spore, trade_monolith, trade_stalker_owl)
+wpn_sig552_tac_siber       = 1, 1     ;BaS  (trade_mercenary, trade_freedom, trade_monolith, trade_stalker_owl)
+wpn_g28                    = 1, 1     ;BaS  (trade_mercenary_pripyat)
+wpn_adar2_15               = 1, 1     ;BaS  (trade_stalker, trade_bandit)
+wpn_sr2_m2                 = 1, 1     ;BaS  (trade_mechanic_duty_bar)
+wpn_scar_l_tac             = 1, 1     ;BaS  (trade_isg, trade_mercenary_zaton)
+wpn_pkm_zenit_siber        = 1, 1     ;BaS  (trade_mercenary, trade_duty, trade_military_agro)
+wpn_pkm_zenit_shorty       = 1, 1     ;BaS  (trade_military_agro)
+wpn_rem700_aics            = 1, 1     ;BaS  (trade_stalker_nimble)
+wpn_rem700_mcmillan        = 1, 1     ;BaS  (trade_mercenary_pripyat, trade_ecolog_hermann)
+wpn_kar98_retrotac         = 1, 1     ;BaS  (trade_stalker_forester)
+wpn_karabiner98k           = 1, 1     ;BaS  (trade_stalker_forester)
+wpn_ppsh_bas               = 1, 1     ;BaS  (trade_stalker, trade_bandit, trade_csky_spore)
+wpn_pk_siber               = 1, 1     ;BaS  (trade_stalker, trade_bandit, trade_csky_spore, trade_duty, trade_military_agro, trade_greh) 
+wpn_pkp_siber              = 1, 1     ;BaS  (trade_csky_spore, trade_duty, trade_military_agro, trade_stalker_cashier)
+wpn_pkp_tac_siber          = 1, 1     ;BaS  (trade_duty, trade_military_agro, trade_mercenary_pripyat)
+
+SILENCERS:
+
+wpn_sil_hex23              = 1, 1     ;BaS  (trade_csky_spore)                       ks23
+wpn_sil_rotor              = 1, 1     ;BaS  (trade_mercenary_meeker, trade_monolith) svds 
+wpn_sil_hexagon            = 1, 1     ;BaS  (trade_stalker_loris, trade_stalker_owl) sks
+wpn_sil_salvo              = 1, 1     ;BaS  (trade_mercenary)                        saiga
+wpn_sil_osprey             = 1, 1     ;BaS   ---CANCELED---
+wpn_sil_pmm                = 1, 1     ;BaS  (trade_mercenary, trade_stalker_owl, trade_stalker_flea_market, trade_duty, trade_military)
+wpn_sil_osp9               = 1, 1     ;BaS  (trade_freedom, trade_greh, trade_isg, trade_mercenary_meeker, trade_stalker_nimble)
+wpn_sil_aac762             = 1, 1     ;BaS  (trade_freedom, trade_isg, trade_stalker_nimble)
+wpn_sil_geks545            = 1, 1     ;BaS  (trade_isg, trade_isg_mission, trade_duty, trade_mercenary, trade_monolith)
+wpn_sil_tgpv               = 1, 1     ;BaS  (trade_duty, trade_military)
+wpn_sil_kek12              = 1, 1     ;BaS  (trade_csky_spore, trade_stalker_butcher, trade_bandit) 
+wpn_sil_black_box          = 1, 1     ;BaS  (trade_ecolog_hermann, trade_mercenary)
+wpn_sil_daniel             = 1, 1     ;BaS  (trade_mercenary, trade_csky_spore)  
+wpn_sil_sr1m               = 1, 1     ;BaS  (trade_duty, trade_mercenary, trade_military)
+wpn_sil_forester           = 1, 1     ;BaS  (trade_stalker_forester)
+wpn_sil_pl15               = 1, 1     ;BaS  (trade_duty, trade_military)   
+wpn_sil_lapu7              = 1, 1     ;BaS  (trade_csky_spore)          for remington700
+wpn_sil_spec_isg           = 1, 1     ;BaS  (trade_isg, trade_isg_light, trade_isg_mission, trade_mercenary)
+wpn_sil_apb                = 1, 1     ;BaS  (trade_stalker_sidorovich, trade_stalker_loris, trade_stalker_flea_market, trade_military, trade_military_esc, trade_duty, trade_csky_spore)
+wpn_sil_veresk             = 1, 1     ;BaS  (trade_military, trade_duty)
+wpn_sil_auga               = 1, 1     ;BaS  (mercenary, isg, freedom)
+wpn_sil_m42k               = 1, 1     ;BaS  (trade_freedom, trade_greh, trade_isg, trade_isg_mission, trade_mercenary, trade_monolith, trade_monolith_basic, trade_stalker_owl)
+wpn_sil_surfire            = 1, 1     ;BaS  (trade_freedom_ashot, trade_mercenary)
+wpn_sil_kac4               = 1, 1     ;BaS  (trade_ecolog_hermann, trade_ecolog_sakharov)
+
+wpn_sil_kip                = 1, 1     ;BaS  (trade_csky_spore, trade_duty, trade_stalker_sidorovich, trade_stalker)
+wpn_sil_scorp              = 1, 1     ;BaS  (trade_csky_spore, trade_duty, trade_stalker_sidorovich, trade_stalker)
+wpn_sil_timberwolf         = 1, 1     ;BaS  (trade_mercenary_pripyat)
+wpn_sil_g28                = 1, 1     ;BaS  (trade_mercenary_pripyat)
+
+
+WEAPON BODY UPGRADES:
+
+mark8_rmr                  = 1, 1     ;BaS (trade_mechanic_mercenary_hog, trade_monolith, trade_isg)
+spec_alt                   = 1, 1     ;BaS (trade_mechanic_mercenary_hog, trade_mechanic_freedom_jupiter, trade_monolith, trade_isg)
+triji                      = 1, 1     ;BaS (trade_mechanic_stalker_zaton, trade_monolith, trade_isg)
+pritseldob                 = 1, 1     ;BaS (trade_mechanic_csky_novikov, trade_mechanic_military_esc, trade_mechanic_stalker_furgon, trade_monolith, trade_isg)
+kashtan_rmr                = 1, 1     ;BaS (trade_mechanic_csky_novikov, trade_mechanic_military_esc, trade_mechanic_stalker_darkscape, trade_mechanic_stalker_furgon)
+kit_sa5x_spec              = 1, 1     ;BaS (trade_stalker_flea_market_night, trade_mechanic_csky_novikov, trade_mechanic_freedom_jupiter)
+kit_fal_leup               = 1, 1     ;BaS (trade_mechanic_mercenary_hog)
+kit_aus_tri                = 1, 1     ;BaS (trade_mechanic_ecolog_garin)
+mono_kit                   = 1, 1     ;BaS (trade_mechanic_stalker_zaton, trade_monolith)
+226sig_kit                 = 1, 1     ;BaS (trade_mechanic_freedom_miL, trade_mechanic_stalker_zaton,  trade_monolith)
+mod9                       = 1, 1     ;BaS (trade_mechanic_stalker_furgon, trade_mechanic_ecolog_yantar)
+upg220                     = 1, 1     ;BaS (trade_mechanic_stalker_furgon, trade_mechanic_ecolog_yantar)
+23_up                      = 1, 1     ;BaS (trade_bandit, trade_mechanic_military_agroprom, trade_mechanic_duty_bar.ltx)
+kab_up                     = 1, 1     ;BaS (trade_mechanic_mercenary_pripyat, trade_monolith, trade_greh)
+archangel                  = 1, 1     ;BaS (trade_mechanic_freedom_jupiter, trade_mechanic_mercenary_hog ) remington700
+magpul_pro                 = 1, 1     ;BaS (trade_mechanic_mercenary_zaton, trade_mechanic_mercenary_yar)
+mod_x_gen3                 = 1, 1     ;BaS (trade_mechanic_stalker_zaton)
+sr1upgr1                   = 1, 1     ;BaS (trade_mechanic_duty_bar, trade_mechanic_military_agroprom)
+silen98                    = 1, 1     ;BaS (trade_stalker_forester) silencer adapter for k98
+swamp                      = 1, 1     ;BaS (trade_mechanic_csky_novikov) ak105kit
+lapua700                   = 1, 1     ;BaS (trade_mechanic_mercenary_pripyat) Remington 700 upgrd
+gurza_up                   = 1, 1     ;BaS (trade_mechanic_mercenary_zaton)
+lazup_pl15                 = 1, 1     ;BaS (trade_mechanic_duty_bar, trade_mechanic_military_agroprom)
+pl15_scolaz                = 1, 1     ;BaS (trade_mechanic_duty_bar, trade_mechanic_mercenary_zaton)
+shakal                     = 1, 1     ;BaS (trade_mechanic_duty_bar) this is ak105 duty kit
+u2p2g0r                    = 1, 1     ;BaS (trade_isg, trade_mechanic_stalker_zaton) sig220 9x19 kit
+apsabigo                   = 1, 1     ;BaS (trade_mechanic_csky_novikov, trade_mechanic_duty_bar, trade_mechanic_stalker_furgon, trade_stalker_flea_market_day, trade_mechanic_ecolog_yantar, trade_mechanic_military_agroprom,  ) APS Upgrade
+sr2_upkit                  = 1, 1     ;BaS (trade_povar, trade_mechanic_duty_bar)
+5c_tik                     = 1, 1     ;BaS (trade_isg, trade_mechanic_mercenary_hog) ak5c kit
+
+uptacppsh                  = 1, 1     ;BaS (trade_mechanic_csky_novikov)                                         ppsh kit
+
+AMMO:
+
+ammo_23x75_shrapnel        = 1, 1     ;BaS  (trade_bandit, trade_greh, trade_mercenary, trade_military, trade_monolith, trade_renegade, trade_csky_spore, trade_duty)
+ammo_23x75_barrikada       = 1, 1     ;BaS  (trade_bandit, trade_greh, trade_mercenary, trade_military, trade_monolith, trade_renegade, trade_csky_spore, trade_duty)
+ammo_9x21_sp10             = 1, 1     ;BaS  (trade_duty, trade_mercenary, trade_mercenary_meeker, trade_military, trade_military_esc, trade_csky_spore)
+ammo_20x70_buck            = 1, 1     ;BaS   All
+ammo_vog-30                = 1, 1     ;BaS  (trade_greh, trade_monolith, trade_monolith_basic, trade_stalker_owl, trade_mercenary, trade_military, trade_duty)
+ammo_338_federal           = 1, 1     ;BaS  (trade_isg, trade_isg_light, trade_isg_mission, trade_mercenary, trade_freedom, trade_mercenary_meeker, trade_bandit, trade_csky_spore, trade_duty, trade_military, trade_stalker_owl)
+
+
+GRENADE LAUNCHERS:
+
+wpn_addon_grenade_launcher_monolit      = 1, 1     ;BaS (trade_mercenary_zaton, trade_monolith)
+wpn_addon_grenade_launcher_scar         = 1, 1     ;BaS (trade_freedom_ashot, trade_mercenary)
+wpn_addon_grenade_launcher_l85          = 1, 1     ;BaS (trade_mercenary_pripyat)
