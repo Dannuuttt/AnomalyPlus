@@ -6,7 +6,9 @@
 
 # Instalation
 
-- Download the release 
+- Download the release
+
+- Overwrite the appdata and bin file in the Anomaly folder with your anomaly installation
 
 - Don't forget to extract /mods/Boomsticks_and_Sharpsticks/gamedata/textures/ui/ui_icon_bas.7z
 
