@@ -14,7 +14,7 @@
 
 # Contributions
 
--  Please only make Pull requests under the **dev** branch.
+-  Only make Pull requests under the **dev** branch.
 
 # Discord
 
