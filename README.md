@@ -16,11 +16,11 @@
 
 # Contributions
 
--  Only make Pull requests under the **dev** branch.
+-  You can make Pull requests under the **dev** branch.
 
 # Discord
 
-- For tutorials and help feel free to join our discord:
+- For tutorials and help from dedicated community members feel free to join our discord:
 https://discord.gg/dr3gytzMSX
 
 # Credits
