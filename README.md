@@ -10,15 +10,17 @@
 
 - Overwrite the appdata and bin file in the Anomaly folder with your anomaly installation
 
+- Put 'mods' into the MO2 mods folder
+
 - Don't forget to extract /mods/Boomsticks_and_Sharpsticks/gamedata/textures/ui/ui_icon_bas.7z
 
 # Contributions
 
--  Only make Pull requests under the **dev** branch.
+-  You can make Pull requests under the **dev** branch.
 
 # Discord
 
-- For tutorials and help feel free to join our discord:
+- For tutorials and help from dedicated community members feel free to join our discord:
 https://discord.gg/dr3gytzMSX
 
 # Credits

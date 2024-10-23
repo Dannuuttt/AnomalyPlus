@@ -23,8 +23,8 @@ scopes                              = apsabigo
         
 inv_grid_width     = 2
 inv_grid_height    = 1
-inv_grid_x         = 66
-inv_grid_y         = 1
+inv_grid_x         = 62
+inv_grid_y         = 10
 
 icons_texture                                       = ui\ui_icon_bas        
 
@@ -33,12 +33,12 @@ icons_texture                                       = ui\ui_icon_bas
         description                 = st_wpn_aps_bas_descr
         
         kind                        = w_pistol
-        inv_weight                  = 1.02
+        inv_weight	            = 0.995
         cost                        = 9380
         repair_type                 = pistol
         
-        hud                         = wpn_aps_bas_hud
-        visual                      = dynamics\weapons\wpn_aps_bas\wpn_aps_bas_world.ogf
+        hud		            = wpn_aps_bas_hud
+        visual                      = dynamics\weapons\wpn_aps_bas\wpn_aps_bas_apsabigo_world.ogf
         position                    = -0.021, 0.0, 0.0         ;x,y,z   (left/right, up/down, forward/back )
         orientation                 = 0, 0, 0
         fire_point                  = 0.0, 0.0, 0.161
@@ -167,7 +167,7 @@ snd_switch_mode													  = weapons\generic\switch_mode
 ;---------------------------------------------------------------------HUD-------------------------------------------------------------------------------
 [wpn_aps_bas_hud]:hud_base
 
-        item_visual                 = dynamics\weapons\wpn_aps_bas\wpn_aps_bas_hud.ogf
+        item_visual                	= dynamics\weapons\wpn_aps_bas\wpn_aps_bas_apsabigo_hud.ogf
 		
         attach_place_idx            = 0
         zoom_hide_crosshair         = true
@@ -243,33 +243,3 @@ aim_hud_offset_rot_16x9				= 0.047850,0.046700,-0.010000
         fire_point                  = 0, 0, 0
  
 ;-------------------------------------------------------------------Addons------------------------------------------------------------------------------
-[wpn_aps_bas_apsabigo]:wpn_aps_bas
-
-inv_weight			    = 0.995
-
-hud				        = wpn_aps_bas_apsabigo_hud
-
-inv_grid_width     = 2
-inv_grid_height    = 1
-inv_grid_x         = 62
-inv_grid_y         = 10
-
-
-parent_section              = wpn_aps_bas_apsabigo
-
-        inv_name                    = st_wpn_aps_bas_apsabigo
-        inv_name_short              = st_wpn_aps_bas_apsabigo
-        description                 = st_wpn_aps_bas_apsabigo_descr
-
-visual				         = dynamics\weapons\wpn_aps_bas\wpn_aps_bas_apsabigo_world.ogf
-
-scope_status			= 1
-
-        silencer_status             = 2
-        silencer_x                  = 64
-        silencer_y                  = -22
-
-[wpn_aps_bas_apsabigo_hud]:wpn_aps_bas_hud
-
-item_visual                	= dynamics\weapons\wpn_aps_bas\wpn_aps_bas_apsabigo_hud.ogf
-;-------------------------------------------------------------------------------------------------------------------------------------------------------

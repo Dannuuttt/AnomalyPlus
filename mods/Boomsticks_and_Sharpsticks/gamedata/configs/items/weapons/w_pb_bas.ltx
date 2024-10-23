@@ -30,7 +30,7 @@ description                              = st_wpn_pb_bas_descr
 
 kind                                     = w_pistol
 inv_weight                               = 1.15
-cost                                     = 6580
+cost                                     = 8190
 repair_type                              = pistol
 
 hud                                      = wpn_pb_bas_hud
@@ -56,7 +56,7 @@ light_var_color                          = 0.05
 light_var_range                          = 0.5
 
 upgrades                                 = up_gr_firstab_pb, up_gr_seconab_pb, up_gr_thirdab_pb, up_gr_fourtab_pb, up_gr_fifthab_pb
-installed_upgrades                       =
+installed_upgrades                       = up_fiftha_pb
 upgrade_scheme                           = upgrade_scheme_pb
 upgr_icon_x                              = 1150
 upgr_icon_y                              = 200
@@ -89,7 +89,7 @@ hit_power                                = 0.45, 0.45, 0.45, 0.45
 hit_type                                 = fire_wound
 fire_distance                            = 300
 bullet_speed                             = 290
-rpm                                      = 305
+rpm                                      = 325
 rpm_empty_click                          = 120
 
 use_aim_bullet                           = true
@@ -100,17 +100,17 @@ zoom_rotate_time                         = 0.25
 reload_dof                               = 0.0, 0.5, 5, 1.7
 control_inertion_factor = 1.0f
 crosshair_inertion                       = 2.8
-fire_dispersion_base                     = 0.59
+fire_dispersion_base                     = 0.56
 fire_dispersion_condition_factor         = 0.001
 
 misfire_probability                      = 0.005
-misfire_start_condition                  = 0.7 ;  0.89
-misfire_start_prob                       = 0.007
-misfire_end_condition                    = 0.16
-misfire_end_prob                         = 0.11
+misfire_start_condition                  = 0.7 ;  0.85
+misfire_start_prob                       = 0.004
+misfire_end_condition                    = 0.12
+misfire_end_prob                         = 0.03
 
-condition_queue_shot_dec                 = 0.0017
-condition_shot_dec                       = 0.0017
+condition_queue_shot_dec                 = 0.0016
+condition_shot_dec                       = 0.0016
 
 cam_return                               = 0
 cam_relax_speed                          = 8
@@ -222,37 +222,3 @@ fire_point			            = 0,0,0
 fire_bone               	    = muzzle
 
 ;------------------------------------------------------------------------------------------------
-[wpn_pb_bas_custom]:wpn_pb_bas
-inv_grid_x                               = 73
-inv_name                                 = st_wpn_pb_bas_custom
-inv_name_short                           = st_wpn_pb_bas_custom
-
-cost                                     = 8190
-
-inv_grid_width     = 2
-inv_grid_height    = 1
-inv_grid_x         = 62
-inv_grid_y         = 6
-
-
-hud                                      = wpn_pb_bas_custom_hud
-visual                                   = dynamics\weapons\wpn_pb_bas\wpn_pb_bas_custom_world.ogf
-
-installed_upgrades                       = up_fiftha_pb
-
-rpm                                      = 325
-
-fire_dispersion_base                     = 0.56
-
-misfire_start_condition                  = 0.7 ;  0.85
-misfire_start_prob                       = 0.004
-misfire_end_condition                    = 0.12
-misfire_end_prob                         = 0.03
-
-condition_queue_shot_dec                 = 0.0016
-condition_shot_dec                       = 0.0016
-
-
-[wpn_pb_bas_custom_hud]:wpn_pb_bas_hud
-item_visual                              = dynamics\weapons\wpn_pb_bas\wpn_pb_bas_hud.ogf
-
