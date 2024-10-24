@@ -1,0 +1,6 @@
+The crowsmusic folder is a simple merge of my other mod 'Overly dramatic blowout music v2' with this one,
+just overwrite the surge_manager script with this one after installing both mods
+
+the retimed folder is a modified script that makes the first wave come 55 seconds faster, altough it doesn't change the duration of the entire blowout
+
+the quieter folder has quieter crow sounds, who would have tought
