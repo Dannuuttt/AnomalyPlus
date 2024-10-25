@@ -8,11 +8,17 @@
 
 - Download the release
 
-- Overwrite the appdata and bin file in the Anomaly folder with your anomaly installation
+- Overwrite the Files in the anomaly instalation with your stalker anomaly folder.
 
-- Put 'mods' into the MO2 mods folder
+- You download MO2 and you make a portable instance
 
+- The MO2 folder is build as:
+1. AnomalyPlus - You overwrite this into your profile folder in MO2
+2. mods - You overwrite this with your mods folder in MO2 
+  
 - Don't forget to extract /mods/Boomsticks_and_Sharpsticks/gamedata/textures/ui/ui_icon_bas.7z
+ 
+You're all set, good hunting stalker.
 
 # Contributions
 
