@@ -8,9 +8,9 @@
 
 - Download the release
 
-- Overwrite the Files in the anomaly instalation with your stalker anomaly folder.
+- download MO2 and you make a portable instance
 
-- You download MO2 and you make a portable instance
+- Overwrite the Files in the anomaly folder with your stalker anomaly folder.
 
 - The MO2 folder is build as:
 1. AnomalyPlus - You overwrite this into your profile folder in MO2
