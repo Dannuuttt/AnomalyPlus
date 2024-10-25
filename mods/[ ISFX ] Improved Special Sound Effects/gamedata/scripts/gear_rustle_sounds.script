@@ -1,9 +1,0 @@
-function on_game_start()
-    RegisterScriptCallback("actor_on_footstep", actor_on_footstep)
-end
-
-function actor_on_footstep()
-    xr_effects.play_snd(db.actor, nil, {
-        [1] = "gear-rustle\\tac_gear_" .. math.random(31)
-    })
-end
