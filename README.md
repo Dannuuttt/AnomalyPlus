@@ -8,7 +8,7 @@
 
 - Download the release
 
-- download MO2 and you make a portable instance
+- download MO2 and make a portable instance
 
 - Overwrite the Files in the anomaly folder with your stalker anomaly folder.
 
