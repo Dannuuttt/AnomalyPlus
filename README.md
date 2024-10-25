@@ -12,7 +12,7 @@
 
 - Overwrite the Files in the anomaly folder with your stalker anomaly folder.
 
-- The MO2 folder is build as:
+- The MO2 folder is built as:
 1. AnomalyPlus - You overwrite this into your profile folder in MO2
 2. mods - You overwrite this with your mods folder in MO2 
   
