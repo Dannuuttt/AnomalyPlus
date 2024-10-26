@@ -6,12 +6,12 @@
 +Desmans_Horror_Overhaul_v1.3
 +Soundscape_Overhaul_
 +[ ISFX ] Improved Special Sound Effects
++BaS_resound_addonV15
 -Audio_separator
 +Perk_Based_Artefacts
 +Parts_In_Tooltip
 +Better_Stats_Bars
 +Groks Body Health System Redux
-+UI Rework G.A.M.M.A. Style - Sota
 +HTS_bars_
 +1.2.2_Crooks_Faction_Identification_UI
 +Dialog_Dynamic_UI.4
@@ -19,33 +19,32 @@
 +Utjans_Item_UI_Improvements
 +HarukaSkillSystem
 +Nitpicker's Modpack
++Barts_New_Sorting_Tabs_
 +SortingPlus
 -UI_separator
 +ScreenSpaceShaders_Update_mod
 -Visual_separator
-+Camera_Reanimation_Project_
-+anomaly-headlamp
 +Weapon_Cover_Tilt
-+BaS_resound_addonV15
-+Barts_New_Sorting_Tabs_
 +Hideout Furniture
 +Dots_and_reticles_extravaganza_Mar_
 +Grok's Balanced Overhaul Of Ballistics System (GBOOBS) 1.7.1
 +Remove_BaS_Labelv
 +Only_BaS_weapons
++Camera_Reanimation_Project
 +M.R.A.A_v1.3
-+Boomsticks_and_Sharpsticks_
 +Extra_Level_Transitions
 +PreBlowoutMurder_3
 +Increased_Companion_Distance
 +Faction_medkits
 +Fixed Vanilla Models and Textures
 +High_Resolution_PDA_Maps_3
-+AnomalyModConfigurationMenu_1_7_0
 +TBs_Bugged_Stashes_Fix_v1.4
 +Stealth_
 +Instant_tooltip
++anomaly_headlamp
 +extra_achievements_0.31
 +Grok's Stash Overhaul v2.2.0
 +dph_configurable_loot_condition_1.2
++Boomsticks_and_Sharpsticks
++AnomalyModConfigurationMenu_1_7_0
 -Gameplay_separator
